@@ -16,6 +16,7 @@ namespace TimeTableManagementSystemNew
         public PrefferedTimeManage()
         {
             InitializeComponent();
+            //filter data from database
             fillcombo();
             fillcombo2();
         }
