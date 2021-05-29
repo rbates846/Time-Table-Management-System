@@ -19,6 +19,7 @@ namespace TimeTableManagementSystemNew
         }
 
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\TimeTable.mdf;Integrated Security=True");
+        
         public int Subject_ID;
         string semester;
 
