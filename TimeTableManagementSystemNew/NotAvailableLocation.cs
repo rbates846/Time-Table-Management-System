@@ -66,8 +66,8 @@ namespace TimeTableManagementSystemNew
                 cmd.CommandType = CommandType.Text;
                 cmd.Parameters.AddWithValue("@Room", comboBox1.Text);
                 cmd.Parameters.AddWithValue("@Day", comboBox2.Text);
-                cmd.Parameters.AddWithValue("@Start_Time",dateTimePicker1.Value.ToString("hh:mm tt"));
-                cmd.Parameters.AddWithValue("@End_Time",dateTimePicker2.Value.ToString("hh:mm tt"));
+                cmd.Parameters.AddWithValue("@Start_Time", dateTimePicker1.Value.ToString("hh:mm tt"));
+                cmd.Parameters.AddWithValue("@End_Time", dateTimePicker2.Value.ToString("hh:mm tt"));
 
                 con.Open();
                 cmd.ExecuteNonQuery();
@@ -116,7 +116,7 @@ namespace TimeTableManagementSystemNew
                 cmd.Parameters.AddWithValue("@Day", comboBox2.Text);
                 cmd.Parameters.AddWithValue("@Start_Time", dateTimePicker1.Value.ToString("hh:mm tt"));
                 cmd.Parameters.AddWithValue("@End_Time", dateTimePicker2.Value.ToString("hh:mm tt"));
-                
+
                 cmd.Parameters.AddWithValue("@ID", this.NotALid);
                 con.Open();
 
@@ -155,7 +155,7 @@ namespace TimeTableManagementSystemNew
             comboBox2.Text = dataGridView2.SelectedRows[0].Cells[2].Value.ToString();
             dateTimePicker1.Text = dataGridView2.SelectedRows[0].Cells[3].Value.ToString();
             dateTimePicker2.Text = dataGridView2.SelectedRows[0].Cells[4].Value.ToString();
-        
+
         }
 
         private void button5_Click(object sender, EventArgs e)

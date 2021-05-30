@@ -50,20 +50,20 @@ namespace TimeTableManagementSystemNew
             // 
             this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(251, 409);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBox3.Location = new System.Drawing.Point(188, 332);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(300, 37);
+            this.comboBox3.Size = new System.Drawing.Size(226, 30);
             this.comboBox3.TabIndex = 59;
             // 
             // comboBox1
             // 
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(251, 208);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBox1.Location = new System.Drawing.Point(188, 169);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(300, 37);
+            this.comboBox1.Size = new System.Drawing.Size(226, 30);
             this.comboBox1.TabIndex = 60;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -71,19 +71,20 @@ namespace TimeTableManagementSystemNew
             // 
             this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(251, 308);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBox2.Location = new System.Drawing.Point(188, 250);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(300, 37);
+            this.comboBox2.Size = new System.Drawing.Size(226, 30);
             this.comboBox2.TabIndex = 61;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
-            this.label3.Location = new System.Drawing.Point(51, 409);
+            this.label3.Location = new System.Drawing.Point(38, 332);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(129, 29);
+            this.label3.Size = new System.Drawing.Size(100, 24);
             this.label3.TabIndex = 62;
             this.label3.Text = "Category 3";
             // 
@@ -91,9 +92,10 @@ namespace TimeTableManagementSystemNew
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
-            this.label1.Location = new System.Drawing.Point(51, 208);
+            this.label1.Location = new System.Drawing.Point(38, 169);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(129, 29);
+            this.label1.Size = new System.Drawing.Size(100, 24);
             this.label1.TabIndex = 63;
             this.label1.Text = "Category 1";
             // 
@@ -101,9 +103,10 @@ namespace TimeTableManagementSystemNew
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
-            this.label2.Location = new System.Drawing.Point(51, 308);
+            this.label2.Location = new System.Drawing.Point(38, 250);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(129, 29);
+            this.label2.Size = new System.Drawing.Size(100, 24);
             this.label2.TabIndex = 64;
             this.label2.Text = "Category 2";
             // 
@@ -115,13 +118,13 @@ namespace TimeTableManagementSystemNew
             this.dgvParallelList.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dgvParallelList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvParallelList.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dgvParallelList.Location = new System.Drawing.Point(597, 208);
-            this.dgvParallelList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgvParallelList.Location = new System.Drawing.Point(448, 169);
+            this.dgvParallelList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvParallelList.Name = "dgvParallelList";
             this.dgvParallelList.RowHeadersWidth = 51;
             this.dgvParallelList.RowTemplate.Height = 24;
             this.dgvParallelList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvParallelList.Size = new System.Drawing.Size(487, 231);
+            this.dgvParallelList.Size = new System.Drawing.Size(365, 188);
             this.dgvParallelList.TabIndex = 71;
             this.dgvParallelList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvParallelList_CellContentClick);
             this.dgvParallelList.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvStudentList_RowHeaderMouseClick);
@@ -130,9 +133,10 @@ namespace TimeTableManagementSystemNew
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold);
-            this.label7.Location = new System.Drawing.Point(300, 30);
+            this.label7.Location = new System.Drawing.Point(225, 24);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(349, 51);
+            this.label7.Size = new System.Drawing.Size(282, 39);
             this.label7.TabIndex = 72;
             this.label7.Text = "Parallel Session";
             // 
@@ -141,12 +145,12 @@ namespace TimeTableManagementSystemNew
             this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(9)))), ((int)(((byte)(20)))));
             this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
+            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnDelete.ForeColor = System.Drawing.Color.White;
-            this.btnDelete.Location = new System.Drawing.Point(795, 559);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnDelete.Location = new System.Drawing.Point(596, 454);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(149, 50);
+            this.btnDelete.Size = new System.Drawing.Size(112, 41);
             this.btnDelete.TabIndex = 76;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
@@ -157,12 +161,12 @@ namespace TimeTableManagementSystemNew
             this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(106)))), ((int)(((byte)(255)))));
             this.btnUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
+            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
-            this.btnUpdate.Location = new System.Drawing.Point(595, 559);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnUpdate.Location = new System.Drawing.Point(446, 454);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(149, 50);
+            this.btnUpdate.Size = new System.Drawing.Size(112, 41);
             this.btnUpdate.TabIndex = 75;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = false;
@@ -173,12 +177,12 @@ namespace TimeTableManagementSystemNew
             this.btnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(123)))), ((int)(((byte)(202)))));
             this.btnClear.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
+            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnClear.ForeColor = System.Drawing.Color.White;
-            this.btnClear.Location = new System.Drawing.Point(395, 559);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnClear.Location = new System.Drawing.Point(296, 454);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(149, 50);
+            this.btnClear.Size = new System.Drawing.Size(112, 41);
             this.btnClear.TabIndex = 74;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = false;
@@ -189,12 +193,12 @@ namespace TimeTableManagementSystemNew
             this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(142)))), ((int)(((byte)(151)))));
             this.btnSave.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
+            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnSave.ForeColor = System.Drawing.Color.White;
-            this.btnSave.Location = new System.Drawing.Point(195, 559);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSave.Location = new System.Drawing.Point(146, 454);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(149, 50);
+            this.btnSave.Size = new System.Drawing.Size(112, 41);
             this.btnSave.TabIndex = 73;
             this.btnSave.Text = "Add";
             this.btnSave.UseVisualStyleBackColor = false;
@@ -204,9 +208,10 @@ namespace TimeTableManagementSystemNew
             // 
             this.lblSearch.AutoSize = true;
             this.lblSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSearch.Location = new System.Drawing.Point(612, 160);
+            this.lblSearch.Location = new System.Drawing.Point(459, 130);
+            this.lblSearch.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSearch.Name = "lblSearch";
-            this.lblSearch.Size = new System.Drawing.Size(75, 25);
+            this.lblSearch.Size = new System.Drawing.Size(60, 20);
             this.lblSearch.TabIndex = 78;
             this.lblSearch.Text = "Search";
             this.lblSearch.Click += new System.EventHandler(this.lblSearch_Click);
@@ -214,16 +219,16 @@ namespace TimeTableManagementSystemNew
             // txtBoxSearch
             // 
             this.txtBoxSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxSearch.Location = new System.Drawing.Point(692, 160);
-            this.txtBoxSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtBoxSearch.Location = new System.Drawing.Point(519, 130);
+            this.txtBoxSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtBoxSearch.Name = "txtBoxSearch";
-            this.txtBoxSearch.Size = new System.Drawing.Size(391, 34);
+            this.txtBoxSearch.Size = new System.Drawing.Size(294, 28);
             this.txtBoxSearch.TabIndex = 77;
             this.txtBoxSearch.TextChanged += new System.EventHandler(this.txtBoxSearch_TextChanged);
             // 
             // Parallel_Session
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.lblSearch);
@@ -240,9 +245,9 @@ namespace TimeTableManagementSystemNew
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.comboBox3);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Parallel_Session";
-            this.Size = new System.Drawing.Size(1131, 650);
+            this.Size = new System.Drawing.Size(848, 528);
             this.Load += new System.EventHandler(this.Parallel_Session_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvParallelList)).EndInit();
             this.ResumeLayout(false);

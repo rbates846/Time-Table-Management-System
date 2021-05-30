@@ -333,9 +333,9 @@ namespace TimeTableManagementSystemNew
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(130)))), ((int)(((byte)(32)))));
             this.panel2.ForeColor = System.Drawing.Color.Black;
-            this.panel2.Location = new System.Drawing.Point(0, 606);
+            this.panel2.Location = new System.Drawing.Point(0, 608);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1023, 16);
+            this.panel2.Size = new System.Drawing.Size(1020, 16);
             this.panel2.TabIndex = 114;
             // 
             // panel1
@@ -379,7 +379,7 @@ namespace TimeTableManagementSystemNew
             this.pictureBox1.Image = global::TimeTableManagementSystemNew.Properties.Resources.A__2_;
             this.pictureBox1.Location = new System.Drawing.Point(22, 61);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(112, 122);
+            this.pictureBox1.Size = new System.Drawing.Size(112, 112);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 112;
             this.pictureBox1.TabStop = false;
