@@ -116,5 +116,12 @@ namespace TimeTableManagementSystemNew
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SessionDBForm frm = new SessionDBForm();
+            frm.Show();
+            this.Close();
+        }
     }
 }
