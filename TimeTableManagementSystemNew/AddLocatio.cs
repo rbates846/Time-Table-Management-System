@@ -83,18 +83,21 @@ namespace TimeTableManagementSystemNew
         {
             if (RoomID > 0)
             {
-                SqlCommand cmd = new SqlCommand("DELETE FROM tbl_Room WHERE RoomID=@ID", con);
-                cmd.CommandType = CommandType.Text;
+                if (MessageBox.Show("Are you sure to delete?", "Delete Record", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    SqlCommand cmd = new SqlCommand("DELETE FROM tbl_Room WHERE RoomID=@ID", con);
+                    cmd.CommandType = CommandType.Text;
 
-                cmd.Parameters.AddWithValue("@ID", this.RoomID);
-                con.Open();
-                cmd.ExecuteNonQuery();
-                con.Close();
+                    cmd.Parameters.AddWithValue("@ID", this.RoomID);
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
 
-                MessageBox.Show("Successfully Deleted Not Available Time", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                GetlocationRecord();
+                   
+                    GetlocationRecord();
 
-                ResetValue();
+                    ResetValue();
+                }
             }
             else
             {

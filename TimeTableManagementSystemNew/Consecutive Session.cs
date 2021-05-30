@@ -168,20 +168,23 @@ namespace TimeTableManagementSystemNew
         {
             if (ConsecutiveId > 0)
             {
-                SqlCommand cmd = new SqlCommand("DELETE FROM tbl_Consecutive WHERE ConsecutiveId = @ConsecutiveId", con);
-                cmd.CommandType = CommandType.Text;
+                if (MessageBox.Show("Are you sure to delete?", "Delete Record", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    SqlCommand cmd = new SqlCommand("DELETE FROM tbl_Consecutive WHERE ConsecutiveId = @ConsecutiveId", con);
+                    cmd.CommandType = CommandType.Text;
 
-                cmd.Parameters.AddWithValue("@ConsecutiveId", this.ConsecutiveId);
+                    cmd.Parameters.AddWithValue("@ConsecutiveId", this.ConsecutiveId);
 
-                con.Open();
-                cmd.ExecuteNonQuery();
-                con.Close();
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
 
-                MessageBox.Show("Session Deleted Successfully", "Deleted", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                   
 
-                GetConsecutiveRecords();
+                    GetConsecutiveRecords();
 
-                ResetFormControls();
+                    ResetFormControls();
+                }
             }
             else
             {
