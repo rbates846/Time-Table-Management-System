@@ -43,9 +43,9 @@ namespace TimeTableManagementSystemNew
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
-            this.btnView = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.btnGenerateId = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvConsecutiveLocationlList)).BeginInit();
             this.SuspendLayout();
             // 
@@ -200,22 +200,6 @@ namespace TimeTableManagementSystemNew
             this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // btnView
-            // 
-            this.btnView.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnView.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnView.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnView.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
-            this.btnView.ForeColor = System.Drawing.Color.White;
-            this.btnView.Location = new System.Drawing.Point(935, 545);
-            this.btnView.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnView.Name = "btnView";
-            this.btnView.Size = new System.Drawing.Size(149, 50);
-            this.btnView.TabIndex = 96;
-            this.btnView.Text = "View";
-            this.btnView.UseVisualStyleBackColor = false;
-            this.btnView.Click += new System.EventHandler(this.btnView_Click);
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -243,13 +227,29 @@ namespace TimeTableManagementSystemNew
             this.btnGenerateId.UseVisualStyleBackColor = false;
             this.btnGenerateId.Click += new System.EventHandler(this.btnGenerateId_Click);
             // 
+            // btnDelete
+            // 
+            this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(9)))), ((int)(((byte)(20)))));
+            this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
+            this.btnDelete.ForeColor = System.Drawing.Color.White;
+            this.btnDelete.Location = new System.Drawing.Point(923, 545);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(149, 50);
+            this.btnDelete.TabIndex = 99;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
             // Add_Consecutive_Session_Location
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnGenerateId);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.btnView);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -289,8 +289,8 @@ namespace TimeTableManagementSystemNew
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.Button btnView;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnGenerateId;
+        private System.Windows.Forms.Button btnDelete;
     }
 }

@@ -169,5 +169,32 @@ namespace TimeTableManagementSystemNew
             
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (SessionRoomID > 0)
+            {
+                if (MessageBox.Show("Are you sure to delete?", "Delete Record", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    SqlCommand cmd = new SqlCommand("DELETE FROM Session_Location WHERE SID=@ID", con);
+                    cmd.CommandType = CommandType.Text;
+
+                    cmd.Parameters.AddWithValue("@ID", this.SessionRoomID);
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
+
+
+                    GetManageSessionRecord();
+
+
+                    ResetValue();
+                }
+            }
+            else
+            {
+                MessageBox.Show("UnSuccessfull", "Select?", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
