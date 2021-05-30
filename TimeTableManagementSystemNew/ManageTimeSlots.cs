@@ -84,18 +84,21 @@ namespace TimeTableManagementSystemNew
         {
             if (slotid > 0)
             {
-                SqlCommand cmd = new SqlCommand("DELETE FROM tbl_Timeslots WHERE TimeSlotID=@ID", con);
-                cmd.CommandType = CommandType.Text;
+                if (MessageBox.Show("Are you sure to delete?", "Delete Record", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    SqlCommand cmd = new SqlCommand("DELETE FROM tbl_Timeslots WHERE TimeSlotID=@ID", con);
+                    cmd.CommandType = CommandType.Text;
 
-                cmd.Parameters.AddWithValue("@ID", this.slotid);
-                con.Open();
-                cmd.ExecuteNonQuery();
-                con.Close();
+                    cmd.Parameters.AddWithValue("@ID", this.slotid);
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
 
-                MessageBox.Show("Successfull", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                   
 
-                GetTimeSlotRecord();
-                ResetValue();
+                    GetTimeSlotRecord();
+                    ResetValue();
+                }
             }
             else
             {
