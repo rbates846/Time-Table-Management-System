@@ -193,7 +193,7 @@ namespace TimeTableManagementSystemNew
             this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(9)))), ((int)(((byte)(20)))));
             this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
+            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnDelete.ForeColor = System.Drawing.Color.White;
             this.btnDelete.Location = new System.Drawing.Point(781, 531);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(2);
@@ -209,7 +209,7 @@ namespace TimeTableManagementSystemNew
             this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(106)))), ((int)(((byte)(255)))));
             this.btnUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
+            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
             this.btnUpdate.Location = new System.Drawing.Point(630, 531);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(2);
@@ -225,7 +225,7 @@ namespace TimeTableManagementSystemNew
             this.btnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(123)))), ((int)(((byte)(202)))));
             this.btnClear.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
+            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnClear.ForeColor = System.Drawing.Color.White;
             this.btnClear.Location = new System.Drawing.Point(484, 531);
             this.btnClear.Margin = new System.Windows.Forms.Padding(2);
@@ -241,7 +241,7 @@ namespace TimeTableManagementSystemNew
             this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(142)))), ((int)(((byte)(151)))));
             this.btnSave.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
+            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnSave.ForeColor = System.Drawing.Color.White;
             this.btnSave.Location = new System.Drawing.Point(334, 531);
             this.btnSave.Margin = new System.Windows.Forms.Padding(2);
@@ -257,7 +257,7 @@ namespace TimeTableManagementSystemNew
             this.btnGenerateId.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(185)))), ((int)(((byte)(0)))));
             this.btnGenerateId.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGenerateId.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGenerateId.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
+            this.btnGenerateId.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnGenerateId.ForeColor = System.Drawing.Color.White;
             this.btnGenerateId.Location = new System.Drawing.Point(138, 531);
             this.btnGenerateId.Margin = new System.Windows.Forms.Padding(2);
