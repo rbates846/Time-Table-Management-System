@@ -170,20 +170,31 @@ namespace TimeTableManagementSystemNew
 
         }
 
-        private void txtBoxSearch_TextChanged(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
-            ///Get the Value from Text Box
+            if (SessionRoomID > 0)
+            {
+                if (MessageBox.Show("Are you sure to delete?", "Delete Record", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    SqlCommand cmd = new SqlCommand("DELETE FROM Session_Location WHERE SID=@ID", con);
+                    cmd.CommandType = CommandType.Text;
 
-            string keyword = txtBoxSearch.Text;
-            SqlDataAdapter sda = new SqlDataAdapter("SELECT * Session_Location FROM  WHERE Selected_Session LIKE '%" + keyword + "%'", con);
-            DataTable dt = new DataTable();
-            sda.Fill(dt);
-            dataGridView1.DataSource = dt;
-        }
+                    cmd.Parameters.AddWithValue("@ID", this.SessionRoomID);
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
+                    GetManageSessionRecord();
+
+
+                    ResetValue();
+                }
+            }
+            else
+            {
+                MessageBox.Show("UnSuccessfull", "Select?", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
