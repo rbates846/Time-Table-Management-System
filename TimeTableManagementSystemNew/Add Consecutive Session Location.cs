@@ -232,5 +232,32 @@ namespace TimeTableManagementSystemNew
         {
 
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (ConsecutiveID > 0)
+            {
+                if (MessageBox.Show("Are you sure to delete?", "Delete Record", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    SqlCommand cmd = new SqlCommand("DELETE FROm Manage_Consecutive_Location WHERE CId = @CId", con);
+                    cmd.CommandType = CommandType.Text;
+
+                    cmd.Parameters.AddWithValue("@CId", this.ConsecutiveID);
+
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
+
+
+                    GetManagecon();
+
+                    ResetValue();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Select Session to Delete", "Select", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

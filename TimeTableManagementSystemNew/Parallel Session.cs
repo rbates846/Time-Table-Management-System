@@ -240,5 +240,14 @@ namespace TimeTableManagementSystemNew
         {
 
         }
+
+        private void txtBoxSearch_TextChanged(object sender, EventArgs e)
+        {
+            string keyword = txtBoxSearch.Text;
+            SqlDataAdapter sda = new SqlDataAdapter("SELECT * FROM tbl_parallel WHERE Category1 LIKE '%" + keyword + "%'", con);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            dgvParallelList.DataSource = dt;
+        }
     }
 }

@@ -76,7 +76,7 @@ namespace TimeTableManagementSystemNew
             this.panel1.Location = new System.Drawing.Point(-3, 1);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(2752, 49);
+            this.panel1.Size = new System.Drawing.Size(1360, 39);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox4

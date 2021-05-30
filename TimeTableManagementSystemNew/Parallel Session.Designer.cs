@@ -219,6 +219,7 @@ namespace TimeTableManagementSystemNew
             this.txtBoxSearch.Name = "txtBoxSearch";
             this.txtBoxSearch.Size = new System.Drawing.Size(391, 34);
             this.txtBoxSearch.TabIndex = 77;
+            this.txtBoxSearch.TextChanged += new System.EventHandler(this.txtBoxSearch_TextChanged);
             // 
             // Parallel_Session
             // 
