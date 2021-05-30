@@ -118,6 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAATZJREFUSEvt
+        079Lw0AAxfEgolCEooJgoQg6qPgnOBXExVmh1MVBXApuOgni6qDODrp1c3MUxKlubtJOIvgDxEk3Rf2+
+        JAchxNwFrlsffOjd9ci7NGnQj6/MYDUa+s8cXvAdzjxnFk/4jXmNObm04LXAnPwVC9iHt4LkyTVW9qCC
+        GxyjjhEUTtbFlSmc4ApvUNknjjAOp0wj6+LpDGAR59Cb9Y4lWLMOnewsnLllHrf4wqYWbNEtq0Sf6ZQx
+        igkMaiHOMC6hu1nWgi1ZJRvQmqGLdXCKGvTAu3hECdakS8xruo1dHOAC+v213oa+M3uckiz5738whAYe
+        8AE9izs4x5TozcoqMBnDNbRHKnCOKckrUPTwn6F9K1ookkPcR8PcNKGCrXDWg0ziBzvhrEdZQzUa9mNN
+        EPwBg2BTKCpELWMAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAdJJREFUWEft
@@ -353,17 +364,6 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH/2Q==
-</value>
-  </data>
-  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAATZJREFUSEvt
-        079Lw0AAxfEgolCEooJgoQg6qPgnOBXExVmh1MVBXApuOgni6qDODrp1c3MUxKlubtJOIvgDxEk3Rf2+
-        JAchxNwFrlsffOjd9ci7NGnQj6/MYDUa+s8cXvAdzjxnFk/4jXmNObm04LXAnPwVC9iHt4LkyTVW9qCC
-        GxyjjhEUTtbFlSmc4ApvUNknjjAOp0wj6+LpDGAR59Cb9Y4lWLMOnewsnLllHrf4wqYWbNEtq0Sf6ZQx
-        igkMaiHOMC6hu1nWgi1ZJRvQmqGLdXCKGvTAu3hECdakS8xruo1dHOAC+v213oa+M3uckiz5738whAYe
-        8AE9izs4x5TozcoqMBnDNbRHKnCOKckrUPTwn6F9K1ookkPcR8PcNKGCrXDWg0ziBzvhrEdZQzUa9mNN
-        EPwBg2BTKCpELWMAAAAASUVORK5CYII=
 </value>
   </data>
 </root>
