@@ -13,69 +13,127 @@ namespace TimeTableManagementSystemNew
 {
     public partial class Lecturer : UserControl
     {
-        SqlConnection con;
+    //    SqlConnection con;
 
         public Lecturer()
         {
             InitializeComponent();
-          
+           
         }
+
+
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\TimeTable.mdf;Integrated Security=True");
+
 
         private void Lecturer_Load(object sender, EventArgs e)
         {
-            createLecTable();
+          
         }
 
 
-        private DataTable createLecTable()
+       
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
+            // view lec ---view time table btn---//
+
+
+            String query1 = "select Format,time,day from sessionsDB order by time";
+
+
+
+            SqlCommand cmd = new SqlCommand(query1, con);
+            con.Open();
             DataTable dt = new DataTable();
-            dt.Columns.Add("TimeSlots");
-            dt.Columns.Add("Sunday");
-            dt.Columns.Add("Monday");
-            dt.Columns.Add("Tuesday");
-            dt.Columns.Add("WednesDay");
-            dt.Columns.Add("ThursDay");
-            dt.Columns.Add("Friday");
-            dt.Columns.Add("Satday");
+            SqlDataReader sdr = cmd.ExecuteReader();
+            dt.Load(sdr);
 
-            DataRow dr = dt.NewRow();
-            dr["TimeSlots"] = "8.30-9.30";
-            dt.Rows.Add(dr);
 
-            DataRow dr1 = dt.NewRow();
-            dr1["TimeSlots"] = "9.30-10.30";
-            dt.Rows.Add(dr1);
+            con.Close();
 
-            DataRow dr2 = dt.NewRow();
-            dr2["TimeSlots"] = "10.30-11.30";
-            dt.Rows.Add(dr2);
+            DataTable newData = new DataTable();
 
-            DataRow dr3 = dt.NewRow();
-            dr3["TimeSlots"] = "11.30-12.30";
-            dt.Rows.Add(dr3);
+            newData.Columns.Add("Time", typeof(String));
+            newData.Columns.Add("Monday", typeof(String));
+            newData.Columns.Add("Tuesday", typeof(String));
+            newData.Columns.Add("Wednesday", typeof(String));
+            newData.Columns.Add("Thursday", typeof(String));
+            newData.Columns.Add("Friday", typeof(String));
+            newData.Columns.Add("Saturday", typeof(String));
+            newData.Columns.Add("Sunday", typeof(String));
 
-            DataRow dr4 = dt.NewRow();
-            dr4["TimeSlots"] = "12.30-1.30";
-            dt.Rows.Add(dr4);
 
-            DataRow dr5 = dt.NewRow();
-            dr5["TimeSlots"] = "1.30-2.30";
-            dt.Rows.Add(dr5);
 
-            DataRow dr6 = dt.NewRow();
-            dr6["TimeSlots"] = "2.30-3.30";
-            dt.Rows.Add(dr6);
+            String[] timeSlot = new String[] { "08.30 AM - 09.30 AM", "09.30 AM - 10.30 AM", "10.30 AM - 11.30 AM", "11.30 AM - 12.30 PM", "12.30 PM - 1.30 PM", "01.30 PM - 02.30 PM", "02.30 PM - 03.30 PM", "03.30 PM - 04.30 PM", "04.30 PM - 05.30 PM" };
 
-            DataRow dr7 = dt.NewRow();
-            dr7["TimeSlots"] = "3.30-4.30";
-            dt.Rows.Add(dr7);
 
-            DataRow dr8 = dt.NewRow();
-            dr8["TimeSlots"] = "4.30-5.30";
-            dt.Rows.Add(dr8);
 
-            return dt;
+            for (int i = 0; i < timeSlot.Length; i++)
+            {
+                newData.Rows.Add(new object[] { timeSlot[i], "--", "--", "--", "--", "--", "--", "--" });
+            }
+
+
+
+            foreach (DataRow row in dt.Rows)
+            {
+                string ss = row[0] + " : " + row[1] + " : " + row[2];
+                string col = null;
+
+
+
+                if (row[2].Equals("Monday"))
+                {
+                    col = "Monday";
+                }
+                else if (row[2].Equals("Tuesday"))
+                {
+                    col = "Tuesday";
+                }
+                else if (row[2].Equals("Wednesday"))
+                {
+                    col = "Wednesday";
+                }
+                else if (row[2].Equals("Thursday"))
+                {
+                    col = "Thursday";
+                }
+                else if (row[2].Equals("Friday"))
+                {
+                    col = "Friday";
+                }
+                else if (row[2].Equals("Saturday"))
+                {
+                    col = "Saturday";
+                }
+                else if (row[2].Equals("Sunday"))
+                {
+                    col = "Sunday";
+                }
+
+
+
+                for (int i = 0; i < timeSlot.Length; i++)
+                {
+                    if (row[1].Equals(timeSlot[i]))
+                    {
+                        newData.Rows[i][col] = ss;
+                        break;
+                    }
+                }
+            }
+
+            dataGridView1.DataSource = newData;
+        }
+
+        private void cmbSelEmp_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+           
         }
     }
 }

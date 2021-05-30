@@ -50,15 +50,15 @@ namespace TimeTableManagementSystemNew
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtBoxTagName = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTagList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // lblSearch
@@ -76,7 +76,7 @@ namespace TimeTableManagementSystemNew
             // 
             this.txtBoxTagId.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBoxTagId.Location = new System.Drawing.Point(228, 202);
-            this.txtBoxTagId.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBoxTagId.Margin = new System.Windows.Forms.Padding(2);
             this.txtBoxTagId.Name = "txtBoxTagId";
             this.txtBoxTagId.Size = new System.Drawing.Size(226, 32);
             this.txtBoxTagId.TabIndex = 67;
@@ -86,7 +86,7 @@ namespace TimeTableManagementSystemNew
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(1492, 0);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(30, 32);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -98,7 +98,7 @@ namespace TimeTableManagementSystemNew
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(30, 32);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -110,7 +110,7 @@ namespace TimeTableManagementSystemNew
             // 
             this.txtBoxSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
             this.txtBoxSearch.Location = new System.Drawing.Point(658, 191);
-            this.txtBoxSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBoxSearch.Margin = new System.Windows.Forms.Padding(2);
             this.txtBoxSearch.Name = "txtBoxSearch";
             this.txtBoxSearch.Size = new System.Drawing.Size(316, 28);
             this.txtBoxSearch.TabIndex = 68;
@@ -124,7 +124,7 @@ namespace TimeTableManagementSystemNew
             this.dgvTagList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTagList.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dgvTagList.Location = new System.Drawing.Point(524, 254);
-            this.dgvTagList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvTagList.Margin = new System.Windows.Forms.Padding(2);
             this.dgvTagList.Name = "dgvTagList";
             this.dgvTagList.RowHeadersWidth = 51;
             this.dgvTagList.RowTemplate.Height = 24;
@@ -138,10 +138,10 @@ namespace TimeTableManagementSystemNew
             this.btndelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(9)))), ((int)(((byte)(20)))));
             this.btndelete.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btndelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btndelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
+            this.btndelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.btndelete.ForeColor = System.Drawing.Color.White;
             this.btndelete.Location = new System.Drawing.Point(671, 529);
-            this.btndelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btndelete.Margin = new System.Windows.Forms.Padding(2);
             this.btndelete.Name = "btndelete";
             this.btndelete.Size = new System.Drawing.Size(112, 41);
             this.btndelete.TabIndex = 66;
@@ -154,10 +154,10 @@ namespace TimeTableManagementSystemNew
             this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(106)))), ((int)(((byte)(255)))));
             this.btnUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
+            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
             this.btnUpdate.Location = new System.Drawing.Point(520, 529);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(112, 41);
             this.btnUpdate.TabIndex = 65;
@@ -170,10 +170,10 @@ namespace TimeTableManagementSystemNew
             this.btnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(123)))), ((int)(((byte)(202)))));
             this.btnClear.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
+            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnClear.ForeColor = System.Drawing.Color.White;
             this.btnClear.Location = new System.Drawing.Point(370, 529);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(2);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(112, 41);
             this.btnClear.TabIndex = 63;
@@ -186,10 +186,10 @@ namespace TimeTableManagementSystemNew
             this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(142)))), ((int)(((byte)(151)))));
             this.btnSave.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
+            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnSave.ForeColor = System.Drawing.Color.White;
             this.btnSave.Location = new System.Drawing.Point(225, 529);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(112, 41);
             this.btnSave.TabIndex = 62;
@@ -207,7 +207,7 @@ namespace TimeTableManagementSystemNew
             "Lab",
             "Evaluation"});
             this.txtBoxRelatedTag.Location = new System.Drawing.Point(228, 417);
-            this.txtBoxRelatedTag.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBoxRelatedTag.Margin = new System.Windows.Forms.Padding(2);
             this.txtBoxRelatedTag.Name = "txtBoxRelatedTag";
             this.txtBoxRelatedTag.Size = new System.Drawing.Size(226, 30);
             this.txtBoxRelatedTag.TabIndex = 61;
@@ -216,7 +216,7 @@ namespace TimeTableManagementSystemNew
             // 
             this.txtBoxTagCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
             this.txtBoxTagCode.Location = new System.Drawing.Point(228, 336);
-            this.txtBoxTagCode.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBoxTagCode.Margin = new System.Windows.Forms.Padding(2);
             this.txtBoxTagCode.Name = "txtBoxTagCode";
             this.txtBoxTagCode.Size = new System.Drawing.Size(226, 28);
             this.txtBoxTagCode.TabIndex = 60;
@@ -258,9 +258,9 @@ namespace TimeTableManagementSystemNew
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(22, 61);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(112, 122);
+            this.pictureBox1.Size = new System.Drawing.Size(112, 112);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 55;
             this.pictureBox1.TabStop = false;
@@ -280,8 +280,8 @@ namespace TimeTableManagementSystemNew
             // 
             this.panel1.AutoSize = true;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(130)))), ((int)(((byte)(32)))));
-            this.panel1.Location = new System.Drawing.Point(0, 599);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Location = new System.Drawing.Point(0, 608);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1020, 16);
             this.panel1.TabIndex = 53;
@@ -290,7 +290,7 @@ namespace TimeTableManagementSystemNew
             // 
             this.txtBoxTagName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
             this.txtBoxTagName.Location = new System.Drawing.Point(228, 254);
-            this.txtBoxTagName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBoxTagName.Margin = new System.Windows.Forms.Padding(2);
             this.txtBoxTagName.Name = "txtBoxTagName";
             this.txtBoxTagName.Size = new System.Drawing.Size(226, 28);
             this.txtBoxTagName.TabIndex = 57;
@@ -303,23 +303,10 @@ namespace TimeTableManagementSystemNew
             this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1020, 32);
             this.panel2.TabIndex = 52;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(1492, 0);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(30, 32);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 51;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox5
             // 
@@ -333,6 +320,19 @@ namespace TimeTableManagementSystemNew
             this.pictureBox5.TabIndex = 52;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(1492, 0);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(30, 32);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 51;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // ManageTags
             // 
@@ -359,7 +359,7 @@ namespace TimeTableManagementSystemNew
             this.Controls.Add(this.txtBoxTagName);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ManageTags";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ManageTags";
@@ -369,8 +369,8 @@ namespace TimeTableManagementSystemNew
             ((System.ComponentModel.ISupportInitialize)(this.dgvTagList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -90,7 +90,7 @@ namespace TimeTableManagementSystemNew
             this.dgvStudentList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvStudentList.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dgvStudentList.Location = new System.Drawing.Point(554, 203);
-            this.dgvStudentList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvStudentList.Margin = new System.Windows.Forms.Padding(2);
             this.dgvStudentList.Name = "dgvStudentList";
             this.dgvStudentList.RowHeadersWidth = 51;
             this.dgvStudentList.RowTemplate.Height = 24;
@@ -410,7 +410,7 @@ namespace TimeTableManagementSystemNew
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(130)))), ((int)(((byte)(32)))));
-            this.panel3.Location = new System.Drawing.Point(0, 599);
+            this.panel3.Location = new System.Drawing.Point(0, 608);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1020, 16);

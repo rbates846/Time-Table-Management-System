@@ -401,7 +401,7 @@ namespace TimeTableManagementSystemNew
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(130)))), ((int)(((byte)(32)))));
             this.panel2.ForeColor = System.Drawing.Color.Black;
-            this.panel2.Location = new System.Drawing.Point(0, 603);
+            this.panel2.Location = new System.Drawing.Point(0, 604);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1020, 20);
             this.panel2.TabIndex = 78;

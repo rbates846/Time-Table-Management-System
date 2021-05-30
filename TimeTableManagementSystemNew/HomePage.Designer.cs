@@ -101,20 +101,21 @@ namespace TimeTableManagementSystemNew
             this.guna2ShadowPanel5.Controls.Add(this.label5);
             this.guna2ShadowPanel5.Controls.Add(this.guna2PictureBox5);
             this.guna2ShadowPanel5.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel5.Location = new System.Drawing.Point(713, 300);
-            this.guna2ShadowPanel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2ShadowPanel5.Location = new System.Drawing.Point(535, 244);
+            this.guna2ShadowPanel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2ShadowPanel5.Name = "guna2ShadowPanel5";
             this.guna2ShadowPanel5.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel5.Size = new System.Drawing.Size(149, 170);
+            this.guna2ShadowPanel5.Size = new System.Drawing.Size(112, 138);
             this.guna2ShadowPanel5.TabIndex = 67;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(31, 126);
+            this.label5.Location = new System.Drawing.Point(23, 102);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(85, 25);
+            this.label5.Size = new System.Drawing.Size(70, 20);
             this.label5.TabIndex = 53;
             this.label5.Text = "Subject";
             // 
@@ -125,11 +126,11 @@ namespace TimeTableManagementSystemNew
             this.guna2PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox5.FillColor = System.Drawing.Color.Black;
             this.guna2PictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox5.Image")));
-            this.guna2PictureBox5.Location = new System.Drawing.Point(31, 32);
-            this.guna2PictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox5.Location = new System.Drawing.Point(23, 26);
+            this.guna2PictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox5.Name = "guna2PictureBox5";
             this.guna2PictureBox5.ShadowDecoration.Parent = this.guna2PictureBox5;
-            this.guna2PictureBox5.Size = new System.Drawing.Size(85, 78);
+            this.guna2PictureBox5.Size = new System.Drawing.Size(64, 63);
             this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox5.TabIndex = 52;
             this.guna2PictureBox5.TabStop = false;
@@ -142,11 +143,11 @@ namespace TimeTableManagementSystemNew
             this.guna2ShadowPanel4.Controls.Add(this.label4);
             this.guna2ShadowPanel4.Controls.Add(this.guna2PictureBox4);
             this.guna2ShadowPanel4.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel4.Location = new System.Drawing.Point(313, 300);
-            this.guna2ShadowPanel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2ShadowPanel4.Location = new System.Drawing.Point(235, 244);
+            this.guna2ShadowPanel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2ShadowPanel4.Name = "guna2ShadowPanel4";
             this.guna2ShadowPanel4.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel4.Size = new System.Drawing.Size(149, 170);
+            this.guna2ShadowPanel4.Size = new System.Drawing.Size(112, 138);
             this.guna2ShadowPanel4.TabIndex = 66;
             this.guna2ShadowPanel4.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2ShadowPanel4_Paint);
             // 
@@ -154,9 +155,10 @@ namespace TimeTableManagementSystemNew
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(23, 126);
+            this.label4.Location = new System.Drawing.Point(17, 102);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(107, 25);
+            this.label4.Size = new System.Drawing.Size(87, 20);
             this.label4.TabIndex = 53;
             this.label4.Text = "Employee";
             // 
@@ -167,11 +169,11 @@ namespace TimeTableManagementSystemNew
             this.guna2PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox4.FillColor = System.Drawing.Color.Black;
             this.guna2PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox4.Image")));
-            this.guna2PictureBox4.Location = new System.Drawing.Point(28, 26);
-            this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox4.Location = new System.Drawing.Point(21, 21);
+            this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox4.Name = "guna2PictureBox4";
             this.guna2PictureBox4.ShadowDecoration.Parent = this.guna2PictureBox4;
-            this.guna2PictureBox4.Size = new System.Drawing.Size(93, 84);
+            this.guna2PictureBox4.Size = new System.Drawing.Size(70, 68);
             this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox4.TabIndex = 52;
             this.guna2PictureBox4.TabStop = false;
@@ -183,20 +185,21 @@ namespace TimeTableManagementSystemNew
             this.guna2ShadowPanel1.Controls.Add(this.label1);
             this.guna2ShadowPanel1.Controls.Add(this.guna2PictureBox1);
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(313, 537);
-            this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(235, 436);
+            this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(149, 170);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(112, 138);
             this.guna2ShadowPanel1.TabIndex = 62;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(45, 128);
+            this.label1.Location = new System.Drawing.Point(34, 104);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 25);
+            this.label1.Size = new System.Drawing.Size(47, 20);
             this.label1.TabIndex = 53;
             this.label1.Text = "Time";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -208,11 +211,11 @@ namespace TimeTableManagementSystemNew
             this.guna2PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Black;
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
-            this.guna2PictureBox1.Location = new System.Drawing.Point(19, 15);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(14, 12);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(112, 110);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(84, 89);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 52;
             this.guna2PictureBox1.TabStop = false;
@@ -229,9 +232,9 @@ namespace TimeTableManagementSystemNew
             this.panel3.Controls.Add(this.pictureBox1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(269, 768);
+            this.panel3.Size = new System.Drawing.Size(202, 624);
             this.panel3.TabIndex = 59;
             // 
             // guna2PictureBox11
@@ -241,11 +244,11 @@ namespace TimeTableManagementSystemNew
             this.guna2PictureBox11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox11.FillColor = System.Drawing.Color.Black;
             this.guna2PictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox11.Image")));
-            this.guna2PictureBox11.Location = new System.Drawing.Point(107, 682);
-            this.guna2PictureBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox11.Location = new System.Drawing.Point(80, 554);
+            this.guna2PictureBox11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox11.Name = "guna2PictureBox11";
             this.guna2PictureBox11.ShadowDecoration.Parent = this.guna2PictureBox11;
-            this.guna2PictureBox11.Size = new System.Drawing.Size(40, 39);
+            this.guna2PictureBox11.Size = new System.Drawing.Size(30, 32);
             this.guna2PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox11.TabIndex = 62;
             this.guna2PictureBox11.TabStop = false;
@@ -257,11 +260,11 @@ namespace TimeTableManagementSystemNew
             this.guna2PictureBox10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox10.FillColor = System.Drawing.Color.Black;
             this.guna2PictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox10.Image")));
-            this.guna2PictureBox10.Location = new System.Drawing.Point(165, 682);
-            this.guna2PictureBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox10.Location = new System.Drawing.Point(124, 554);
+            this.guna2PictureBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox10.Name = "guna2PictureBox10";
             this.guna2PictureBox10.ShadowDecoration.Parent = this.guna2PictureBox10;
-            this.guna2PictureBox10.Size = new System.Drawing.Size(40, 39);
+            this.guna2PictureBox10.Size = new System.Drawing.Size(30, 32);
             this.guna2PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox10.TabIndex = 61;
             this.guna2PictureBox10.TabStop = false;
@@ -273,11 +276,11 @@ namespace TimeTableManagementSystemNew
             this.guna2PictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox7.FillColor = System.Drawing.Color.Black;
             this.guna2PictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox7.Image")));
-            this.guna2PictureBox7.Location = new System.Drawing.Point(45, 682);
-            this.guna2PictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox7.Location = new System.Drawing.Point(34, 554);
+            this.guna2PictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox7.Name = "guna2PictureBox7";
             this.guna2PictureBox7.ShadowDecoration.Parent = this.guna2PictureBox7;
-            this.guna2PictureBox7.Size = new System.Drawing.Size(40, 39);
+            this.guna2PictureBox7.Size = new System.Drawing.Size(30, 32);
             this.guna2PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox7.TabIndex = 54;
             this.guna2PictureBox7.TabStop = false;
@@ -292,11 +295,11 @@ namespace TimeTableManagementSystemNew
             this.guna2Button2.Font = new System.Drawing.Font("Berlin Sans FB", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.Black;
             this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Location = new System.Drawing.Point(25, 604);
-            this.guna2Button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button2.Location = new System.Drawing.Point(19, 491);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
-            this.guna2Button2.Size = new System.Drawing.Size(220, 46);
+            this.guna2Button2.Size = new System.Drawing.Size(165, 37);
             this.guna2Button2.TabIndex = 60;
             this.guna2Button2.Text = "Login";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
@@ -311,11 +314,11 @@ namespace TimeTableManagementSystemNew
             this.guna2Button1.Font = new System.Drawing.Font("Berlin Sans FB", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.Black;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(25, 479);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button1.Location = new System.Drawing.Point(19, 389);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(220, 46);
+            this.guna2Button1.Size = new System.Drawing.Size(165, 37);
             this.guna2Button1.TabIndex = 59;
             this.guna2Button1.Text = "DashBoard";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -324,10 +327,10 @@ namespace TimeTableManagementSystemNew
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(56, 63);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(42, 51);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(149, 150);
+            this.pictureBox1.Size = new System.Drawing.Size(112, 112);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 48;
             this.pictureBox1.TabStop = false;
@@ -339,10 +342,10 @@ namespace TimeTableManagementSystemNew
             this.panel4.Controls.Add(this.guna2PictureBox9);
             this.panel4.Controls.Add(this.pictureBox3);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(1109, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel4.Location = new System.Drawing.Point(832, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(251, 768);
+            this.panel4.Size = new System.Drawing.Size(188, 624);
             this.panel4.TabIndex = 60;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
@@ -352,11 +355,11 @@ namespace TimeTableManagementSystemNew
             this.guna2PictureBox9.BorderRadius = 50;
             this.guna2PictureBox9.FillColor = System.Drawing.Color.Black;
             this.guna2PictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox9.Image")));
-            this.guna2PictureBox9.Location = new System.Drawing.Point(3, 562);
-            this.guna2PictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox9.Location = new System.Drawing.Point(2, 457);
+            this.guna2PictureBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox9.Name = "guna2PictureBox9";
             this.guna2PictureBox9.ShadowDecoration.Parent = this.guna2PictureBox9;
-            this.guna2PictureBox9.Size = new System.Drawing.Size(245, 206);
+            this.guna2PictureBox9.Size = new System.Drawing.Size(184, 167);
             this.guna2PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox9.TabIndex = 54;
             this.guna2PictureBox9.TabStop = false;
@@ -366,10 +369,10 @@ namespace TimeTableManagementSystemNew
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(188, 12);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox3.Location = new System.Drawing.Point(141, 10);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(51, 50);
+            this.pictureBox3.Size = new System.Drawing.Size(38, 41);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 50;
             this.pictureBox3.TabStop = false;
@@ -382,20 +385,21 @@ namespace TimeTableManagementSystemNew
             this.guna2ShadowPanel7.Controls.Add(this.label8);
             this.guna2ShadowPanel7.Controls.Add(this.guna2PictureBox2);
             this.guna2ShadowPanel7.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel7.Location = new System.Drawing.Point(513, 300);
-            this.guna2ShadowPanel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2ShadowPanel7.Location = new System.Drawing.Point(385, 244);
+            this.guna2ShadowPanel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2ShadowPanel7.Name = "guna2ShadowPanel7";
             this.guna2ShadowPanel7.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel7.Size = new System.Drawing.Size(149, 170);
+            this.guna2ShadowPanel7.Size = new System.Drawing.Size(112, 138);
             this.guna2ShadowPanel7.TabIndex = 67;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label8.Location = new System.Drawing.Point(36, 126);
+            this.label8.Location = new System.Drawing.Point(27, 102);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(87, 25);
+            this.label8.Size = new System.Drawing.Size(73, 20);
             this.label8.TabIndex = 53;
             this.label8.Text = "Student";
             // 
@@ -406,11 +410,11 @@ namespace TimeTableManagementSystemNew
             this.guna2PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox2.FillColor = System.Drawing.Color.Black;
             this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
-            this.guna2PictureBox2.Location = new System.Drawing.Point(24, 20);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(18, 16);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.ShadowDecoration.Parent = this.guna2PictureBox2;
-            this.guna2PictureBox2.Size = new System.Drawing.Size(99, 87);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(74, 71);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox2.TabIndex = 52;
             this.guna2PictureBox2.TabStop = false;
@@ -423,11 +427,11 @@ namespace TimeTableManagementSystemNew
             this.guna2ShadowPanel2.Controls.Add(this.guna2PictureBox8);
             this.guna2ShadowPanel2.Controls.Add(this.label2);
             this.guna2ShadowPanel2.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel2.Location = new System.Drawing.Point(913, 300);
-            this.guna2ShadowPanel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2ShadowPanel2.Location = new System.Drawing.Point(685, 244);
+            this.guna2ShadowPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2ShadowPanel2.Name = "guna2ShadowPanel2";
             this.guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel2.Size = new System.Drawing.Size(149, 170);
+            this.guna2ShadowPanel2.Size = new System.Drawing.Size(112, 138);
             this.guna2ShadowPanel2.TabIndex = 68;
             this.guna2ShadowPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2ShadowPanel2_Paint);
             // 
@@ -438,11 +442,11 @@ namespace TimeTableManagementSystemNew
             this.guna2PictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox8.FillColor = System.Drawing.Color.Black;
             this.guna2PictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox8.Image")));
-            this.guna2PictureBox8.Location = new System.Drawing.Point(31, 27);
-            this.guna2PictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox8.Location = new System.Drawing.Point(23, 22);
+            this.guna2PictureBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox8.Name = "guna2PictureBox8";
             this.guna2PictureBox8.ShadowDecoration.Parent = this.guna2PictureBox8;
-            this.guna2PictureBox8.Size = new System.Drawing.Size(85, 80);
+            this.guna2PictureBox8.Size = new System.Drawing.Size(64, 65);
             this.guna2PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox8.TabIndex = 54;
             this.guna2PictureBox8.TabStop = false;
@@ -452,9 +456,10 @@ namespace TimeTableManagementSystemNew
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(45, 126);
+            this.label2.Location = new System.Drawing.Point(34, 102);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 25);
+            this.label2.Size = new System.Drawing.Size(48, 20);
             this.label2.TabIndex = 53;
             this.label2.Text = "Tags";
             // 
@@ -465,11 +470,11 @@ namespace TimeTableManagementSystemNew
             this.guna2ShadowPanel3.Controls.Add(this.label3);
             this.guna2ShadowPanel3.Controls.Add(this.guna2PictureBox6);
             this.guna2ShadowPanel3.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel3.Location = new System.Drawing.Point(513, 537);
-            this.guna2ShadowPanel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2ShadowPanel3.Location = new System.Drawing.Point(385, 436);
+            this.guna2ShadowPanel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2ShadowPanel3.Name = "guna2ShadowPanel3";
             this.guna2ShadowPanel3.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel3.Size = new System.Drawing.Size(149, 170);
+            this.guna2ShadowPanel3.Size = new System.Drawing.Size(112, 138);
             this.guna2ShadowPanel3.TabIndex = 69;
             this.guna2ShadowPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2ShadowPanel3_Paint);
             // 
@@ -477,9 +482,10 @@ namespace TimeTableManagementSystemNew
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(29, 128);
+            this.label3.Location = new System.Drawing.Point(22, 104);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(94, 25);
+            this.label3.Size = new System.Drawing.Size(78, 20);
             this.label3.TabIndex = 53;
             this.label3.Text = "Location";
             // 
@@ -490,11 +496,11 @@ namespace TimeTableManagementSystemNew
             this.guna2PictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox6.FillColor = System.Drawing.Color.Black;
             this.guna2PictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox6.Image")));
-            this.guna2PictureBox6.Location = new System.Drawing.Point(24, 25);
-            this.guna2PictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox6.Location = new System.Drawing.Point(18, 20);
+            this.guna2PictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox6.Name = "guna2PictureBox6";
             this.guna2PictureBox6.ShadowDecoration.Parent = this.guna2PictureBox6;
-            this.guna2PictureBox6.Size = new System.Drawing.Size(101, 89);
+            this.guna2PictureBox6.Size = new System.Drawing.Size(76, 72);
             this.guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox6.TabIndex = 52;
             this.guna2PictureBox6.TabStop = false;
@@ -507,11 +513,11 @@ namespace TimeTableManagementSystemNew
             this.guna2ShadowPanel6.Controls.Add(this.guna2PictureBox3);
             this.guna2ShadowPanel6.Controls.Add(this.label6);
             this.guna2ShadowPanel6.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel6.Location = new System.Drawing.Point(713, 537);
-            this.guna2ShadowPanel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2ShadowPanel6.Location = new System.Drawing.Point(535, 436);
+            this.guna2ShadowPanel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2ShadowPanel6.Name = "guna2ShadowPanel6";
             this.guna2ShadowPanel6.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel6.Size = new System.Drawing.Size(149, 170);
+            this.guna2ShadowPanel6.Size = new System.Drawing.Size(112, 138);
             this.guna2ShadowPanel6.TabIndex = 70;
             // 
             // guna2PictureBox3
@@ -521,11 +527,11 @@ namespace TimeTableManagementSystemNew
             this.guna2PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox3.FillColor = System.Drawing.Color.Black;
             this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
-            this.guna2PictureBox3.Location = new System.Drawing.Point(19, 14);
-            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox3.Location = new System.Drawing.Point(14, 11);
+            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
             this.guna2PictureBox3.ShadowDecoration.Parent = this.guna2PictureBox3;
-            this.guna2PictureBox3.Size = new System.Drawing.Size(116, 100);
+            this.guna2PictureBox3.Size = new System.Drawing.Size(87, 81);
             this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox3.TabIndex = 54;
             this.guna2PictureBox3.TabStop = false;
@@ -535,9 +541,10 @@ namespace TimeTableManagementSystemNew
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(27, 128);
+            this.label6.Location = new System.Drawing.Point(20, 104);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(101, 25);
+            this.label6.Size = new System.Drawing.Size(82, 20);
             this.label6.TabIndex = 53;
             this.label6.Text = "Sessions";
             // 
@@ -548,11 +555,11 @@ namespace TimeTableManagementSystemNew
             this.guna2ShadowPanel8.Controls.Add(this.guna2PictureBox12);
             this.guna2ShadowPanel8.Controls.Add(this.label7);
             this.guna2ShadowPanel8.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel8.Location = new System.Drawing.Point(913, 537);
-            this.guna2ShadowPanel8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2ShadowPanel8.Location = new System.Drawing.Point(685, 436);
+            this.guna2ShadowPanel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2ShadowPanel8.Name = "guna2ShadowPanel8";
             this.guna2ShadowPanel8.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel8.Size = new System.Drawing.Size(155, 170);
+            this.guna2ShadowPanel8.Size = new System.Drawing.Size(116, 138);
             this.guna2ShadowPanel8.TabIndex = 71;
             // 
             // guna2PictureBox12
@@ -562,11 +569,11 @@ namespace TimeTableManagementSystemNew
             this.guna2PictureBox12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox12.FillColor = System.Drawing.Color.Black;
             this.guna2PictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox12.Image")));
-            this.guna2PictureBox12.Location = new System.Drawing.Point(31, 25);
-            this.guna2PictureBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox12.Location = new System.Drawing.Point(23, 20);
+            this.guna2PictureBox12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox12.Name = "guna2PictureBox12";
             this.guna2PictureBox12.ShadowDecoration.Parent = this.guna2PictureBox12;
-            this.guna2PictureBox12.Size = new System.Drawing.Size(87, 79);
+            this.guna2PictureBox12.Size = new System.Drawing.Size(65, 64);
             this.guna2PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox12.TabIndex = 54;
             this.guna2PictureBox12.TabStop = false;
@@ -576,9 +583,10 @@ namespace TimeTableManagementSystemNew
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label7.Location = new System.Drawing.Point(20, 128);
+            this.label7.Location = new System.Drawing.Point(15, 104);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(115, 25);
+            this.label7.Size = new System.Drawing.Size(91, 20);
             this.label7.TabIndex = 53;
             this.label7.Text = "TimeTable";
             // 
@@ -586,20 +594,20 @@ namespace TimeTableManagementSystemNew
             // 
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(243, -47);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Location = new System.Drawing.Point(182, -38);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(912, 341);
+            this.pictureBox2.Size = new System.Drawing.Size(684, 277);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 61;
             this.pictureBox2.TabStop = false;
             // 
             // HomePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1360, 768);
+            this.ClientSize = new System.Drawing.Size(1020, 624);
             this.Controls.Add(this.guna2ShadowPanel8);
             this.Controls.Add(this.guna2ShadowPanel6);
             this.Controls.Add(this.guna2ShadowPanel3);
@@ -612,7 +620,7 @@ namespace TimeTableManagementSystemNew
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "HomePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HomePage";

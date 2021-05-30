@@ -199,5 +199,17 @@ namespace TimeTableManagementSystemNew
         {
     
         }
+
+        private void pictureBox5_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            HomePage back = new HomePage();
+            back.Show();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
