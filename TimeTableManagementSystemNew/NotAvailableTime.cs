@@ -252,19 +252,22 @@ namespace TimeTableManagementSystemNew
         {
             if (NotATid > 0)
             {
-                SqlCommand cmd = new SqlCommand("DELETE FROM Not_Available_Time WHERE NotAvailableId=@ID", con);
-                cmd.CommandType = CommandType.Text;
+                if (MessageBox.Show("Are you sure to delete?", "Delete Record", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    SqlCommand cmd = new SqlCommand("DELETE FROM Not_Available_Time WHERE NotAvailableId=@ID", con);
+                    cmd.CommandType = CommandType.Text;
 
-                cmd.Parameters.AddWithValue("@ID", this.NotATid);
-                con.Open();
-                cmd.ExecuteNonQuery();
-                con.Close();
+                    cmd.Parameters.AddWithValue("@ID", this.NotATid);
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
 
-                MessageBox.Show("Successfully Deleted Not Available Time", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                GetNotAvailableTimeRecord();
+                    MessageBox.Show("Successfully Deleted Not Available Time", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    GetNotAvailableTimeRecord();
 
 
-                ResetValue();
+                    ResetValue();
+                }
             }
             else
             {

@@ -148,20 +148,23 @@ namespace TimeTableManagementSystemNew
         {
             if (TagId > 0)
             {
-                SqlCommand cmd = new SqlCommand("DELETE FROm tbl_tag WHERE TagId = @TagId", con);
-                cmd.CommandType = CommandType.Text;
+                if (MessageBox.Show("Are you sure to delete?", "Delete Record", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    SqlCommand cmd = new SqlCommand("DELETE FROm tbl_tag WHERE TagId = @TagId", con);
+                    cmd.CommandType = CommandType.Text;
 
-                cmd.Parameters.AddWithValue("@TagId", this.TagId);
+                    cmd.Parameters.AddWithValue("@TagId", this.TagId);
 
-                con.Open();
-                cmd.ExecuteNonQuery();
-                con.Close();
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
 
-                MessageBox.Show("Tag Deleted Successfully", "Deleted", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    
 
-                GetTagRecord();
+                    GetTagRecord();
 
-                ResetFormControls();
+                    ResetFormControls();
+                }
             }
             else
             {

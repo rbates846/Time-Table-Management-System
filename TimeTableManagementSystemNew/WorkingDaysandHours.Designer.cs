@@ -88,31 +88,30 @@ namespace TimeTableManagementSystemNew
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(302, 68);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(403, 84);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(564, 39);
+            this.label1.Size = new System.Drawing.Size(696, 51);
             this.label1.TabIndex = 3;
             this.label1.Text = "Manage Working Days and Hours";
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(11, 42);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Location = new System.Drawing.Point(15, 52);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(112, 112);
+            this.pictureBox4.Size = new System.Drawing.Size(149, 138);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 46;
             this.pictureBox4.TabStop = false;
             // 
             // workID
             // 
-            this.workID.Location = new System.Drawing.Point(375, 151);
-            this.workID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.workID.Location = new System.Drawing.Point(500, 186);
+            this.workID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.workID.Name = "workID";
             this.workID.ReadOnly = true;
-            this.workID.Size = new System.Drawing.Size(76, 20);
+            this.workID.Size = new System.Drawing.Size(100, 22);
             this.workID.TabIndex = 47;
             this.workID.Visible = false;
             this.workID.TextChanged += new System.EventHandler(this.workID_TextChanged);
@@ -120,20 +119,19 @@ namespace TimeTableManagementSystemNew
             // NoOfWorkingDays
             // 
             this.NoOfWorkingDays.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NoOfWorkingDays.Location = new System.Drawing.Point(321, 189);
-            this.NoOfWorkingDays.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NoOfWorkingDays.Location = new System.Drawing.Point(428, 233);
+            this.NoOfWorkingDays.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NoOfWorkingDays.Name = "NoOfWorkingDays";
-            this.NoOfWorkingDays.Size = new System.Drawing.Size(148, 28);
+            this.NoOfWorkingDays.Size = new System.Drawing.Size(197, 34);
             this.NoOfWorkingDays.TabIndex = 49;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(44, 193);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(59, 238);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(220, 24);
+            this.label2.Size = new System.Drawing.Size(280, 29);
             this.label2.TabIndex = 48;
             this.label2.Text = "Number of Working Days";
             // 
@@ -141,20 +139,19 @@ namespace TimeTableManagementSystemNew
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(44, 246);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(59, 303);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(231, 24);
+            this.label3.Size = new System.Drawing.Size(295, 29);
             this.label3.TabIndex = 50;
             this.label3.Text = "Working Days (Weekdays)";
             // 
             // Monday
             // 
             this.Monday.AutoSize = true;
-            this.Monday.Location = new System.Drawing.Point(321, 253);
-            this.Monday.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Monday.Location = new System.Drawing.Point(428, 311);
+            this.Monday.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Monday.Name = "Monday";
-            this.Monday.Size = new System.Drawing.Size(64, 17);
+            this.Monday.Size = new System.Drawing.Size(80, 21);
             this.Monday.TabIndex = 51;
             this.Monday.Text = "Monday";
             this.Monday.UseVisualStyleBackColor = true;
@@ -162,10 +159,10 @@ namespace TimeTableManagementSystemNew
             // Tuesday
             // 
             this.Tuesday.AutoSize = true;
-            this.Tuesday.Location = new System.Drawing.Point(321, 275);
-            this.Tuesday.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Tuesday.Location = new System.Drawing.Point(428, 338);
+            this.Tuesday.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Tuesday.Name = "Tuesday";
-            this.Tuesday.Size = new System.Drawing.Size(67, 17);
+            this.Tuesday.Size = new System.Drawing.Size(85, 21);
             this.Tuesday.TabIndex = 52;
             this.Tuesday.Text = "Tuesday";
             this.Tuesday.UseVisualStyleBackColor = true;
@@ -173,10 +170,10 @@ namespace TimeTableManagementSystemNew
             // Wednesday
             // 
             this.Wednesday.AutoSize = true;
-            this.Wednesday.Location = new System.Drawing.Point(321, 297);
-            this.Wednesday.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Wednesday.Location = new System.Drawing.Point(428, 366);
+            this.Wednesday.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Wednesday.Name = "Wednesday";
-            this.Wednesday.Size = new System.Drawing.Size(83, 17);
+            this.Wednesday.Size = new System.Drawing.Size(105, 21);
             this.Wednesday.TabIndex = 53;
             this.Wednesday.Text = "Wednesday";
             this.Wednesday.UseVisualStyleBackColor = true;
@@ -184,10 +181,10 @@ namespace TimeTableManagementSystemNew
             // Thursday
             // 
             this.Thursday.AutoSize = true;
-            this.Thursday.Location = new System.Drawing.Point(448, 254);
-            this.Thursday.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Thursday.Location = new System.Drawing.Point(597, 313);
+            this.Thursday.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Thursday.Name = "Thursday";
-            this.Thursday.Size = new System.Drawing.Size(70, 17);
+            this.Thursday.Size = new System.Drawing.Size(90, 21);
             this.Thursday.TabIndex = 54;
             this.Thursday.Text = "Thursday";
             this.Thursday.UseVisualStyleBackColor = true;
@@ -195,10 +192,10 @@ namespace TimeTableManagementSystemNew
             // Friday
             // 
             this.Friday.AutoSize = true;
-            this.Friday.Location = new System.Drawing.Point(448, 275);
-            this.Friday.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Friday.Location = new System.Drawing.Point(597, 338);
+            this.Friday.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Friday.Name = "Friday";
-            this.Friday.Size = new System.Drawing.Size(54, 17);
+            this.Friday.Size = new System.Drawing.Size(69, 21);
             this.Friday.TabIndex = 55;
             this.Friday.Text = "Friday";
             this.Friday.UseVisualStyleBackColor = true;
@@ -207,10 +204,9 @@ namespace TimeTableManagementSystemNew
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(550, 349);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Location = new System.Drawing.Point(733, 430);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 24);
+            this.label10.Size = new System.Drawing.Size(52, 29);
             this.label10.TabIndex = 61;
             this.label10.Text = "min";
             // 
@@ -218,39 +214,37 @@ namespace TimeTableManagementSystemNew
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(408, 348);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Location = new System.Drawing.Point(544, 428);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(61, 24);
+            this.label9.Size = new System.Drawing.Size(77, 29);
             this.label9.TabIndex = 60;
             this.label9.Text = "Hours";
             // 
             // weekM
             // 
             this.weekM.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.weekM.Location = new System.Drawing.Point(470, 348);
-            this.weekM.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.weekM.Location = new System.Drawing.Point(627, 428);
+            this.weekM.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.weekM.Name = "weekM";
-            this.weekM.Size = new System.Drawing.Size(75, 28);
+            this.weekM.Size = new System.Drawing.Size(100, 34);
             this.weekM.TabIndex = 59;
             // 
             // WeekHr
             // 
             this.WeekHr.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeekHr.Location = new System.Drawing.Point(318, 344);
-            this.WeekHr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WeekHr.Location = new System.Drawing.Point(424, 423);
+            this.WeekHr.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WeekHr.Name = "WeekHr";
-            this.WeekHr.Size = new System.Drawing.Size(75, 28);
+            this.WeekHr.Size = new System.Drawing.Size(100, 34);
             this.WeekHr.TabIndex = 58;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(52, 365);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(69, 449);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(110, 24);
+            this.label7.Size = new System.Drawing.Size(141, 29);
             this.label7.TabIndex = 57;
             this.label7.Text = "(Weekdays)";
             // 
@@ -258,10 +252,9 @@ namespace TimeTableManagementSystemNew
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(49, 341);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(65, 420);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(212, 24);
+            this.label4.Size = new System.Drawing.Size(269, 29);
             this.label4.TabIndex = 56;
             this.label4.Text = "Working Hours Per Day ";
             // 
@@ -269,20 +262,19 @@ namespace TimeTableManagementSystemNew
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(56, 419);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(75, 516);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(225, 24);
+            this.label5.Size = new System.Drawing.Size(286, 29);
             this.label5.TabIndex = 62;
             this.label5.Text = "Working Days (Weekend)";
             // 
             // Sunday
             // 
             this.Sunday.AutoSize = true;
-            this.Sunday.Location = new System.Drawing.Point(448, 420);
-            this.Sunday.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Sunday.Location = new System.Drawing.Point(597, 517);
+            this.Sunday.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Sunday.Name = "Sunday";
-            this.Sunday.Size = new System.Drawing.Size(62, 17);
+            this.Sunday.Size = new System.Drawing.Size(78, 21);
             this.Sunday.TabIndex = 64;
             this.Sunday.Text = "Sunday";
             this.Sunday.UseVisualStyleBackColor = true;
@@ -290,10 +282,10 @@ namespace TimeTableManagementSystemNew
             // Saturday
             // 
             this.Saturday.AutoSize = true;
-            this.Saturday.Location = new System.Drawing.Point(321, 419);
-            this.Saturday.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Saturday.Location = new System.Drawing.Point(428, 516);
+            this.Saturday.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Saturday.Name = "Saturday";
-            this.Saturday.Size = new System.Drawing.Size(68, 17);
+            this.Saturday.Size = new System.Drawing.Size(87, 21);
             this.Saturday.TabIndex = 63;
             this.Saturday.Text = "Saturday";
             this.Saturday.UseVisualStyleBackColor = true;
@@ -302,10 +294,9 @@ namespace TimeTableManagementSystemNew
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(550, 474);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(733, 583);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(41, 24);
+            this.label6.Size = new System.Drawing.Size(52, 29);
             this.label6.TabIndex = 70;
             this.label6.Text = "min";
             // 
@@ -313,39 +304,37 @@ namespace TimeTableManagementSystemNew
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(408, 472);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Location = new System.Drawing.Point(544, 581);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(61, 24);
+            this.label8.Size = new System.Drawing.Size(77, 29);
             this.label8.TabIndex = 69;
             this.label8.Text = "Hours";
             // 
             // WEM
             // 
             this.WEM.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WEM.Location = new System.Drawing.Point(470, 472);
-            this.WEM.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WEM.Location = new System.Drawing.Point(627, 581);
+            this.WEM.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WEM.Name = "WEM";
-            this.WEM.Size = new System.Drawing.Size(75, 28);
+            this.WEM.Size = new System.Drawing.Size(100, 34);
             this.WEM.TabIndex = 68;
             // 
             // WEHr
             // 
             this.WEHr.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WEHr.Location = new System.Drawing.Point(318, 468);
-            this.WEHr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WEHr.Location = new System.Drawing.Point(424, 576);
+            this.WEHr.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WEHr.Name = "WEHr";
-            this.WEHr.Size = new System.Drawing.Size(75, 28);
+            this.WEHr.Size = new System.Drawing.Size(100, 34);
             this.WEHr.TabIndex = 67;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(52, 489);
-            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Location = new System.Drawing.Point(69, 602);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(110, 24);
+            this.label11.Size = new System.Drawing.Size(141, 29);
             this.label11.TabIndex = 66;
             this.label11.Text = "(Weekdays)";
             // 
@@ -353,10 +342,9 @@ namespace TimeTableManagementSystemNew
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(49, 466);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Location = new System.Drawing.Point(65, 574);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(212, 24);
+            this.label12.Size = new System.Drawing.Size(269, 29);
             this.label12.TabIndex = 65;
             this.label12.Text = "Working Hours Per Day ";
             // 
@@ -368,10 +356,10 @@ namespace TimeTableManagementSystemNew
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(694, 535);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Location = new System.Drawing.Point(925, 658);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(112, 45);
+            this.button5.Size = new System.Drawing.Size(149, 55);
             this.button5.TabIndex = 74;
             this.button5.Text = "Delete";
             this.button5.UseVisualStyleBackColor = false;
@@ -385,10 +373,10 @@ namespace TimeTableManagementSystemNew
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(545, 535);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Location = new System.Drawing.Point(727, 658);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(112, 45);
+            this.button4.Size = new System.Drawing.Size(149, 55);
             this.button4.TabIndex = 73;
             this.button4.Text = "Update";
             this.button4.UseVisualStyleBackColor = false;
@@ -402,10 +390,10 @@ namespace TimeTableManagementSystemNew
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(398, 535);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(531, 658);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(112, 45);
+            this.button2.Size = new System.Drawing.Size(149, 55);
             this.button2.TabIndex = 72;
             this.button2.Text = "Clear";
             this.button2.UseVisualStyleBackColor = false;
@@ -419,10 +407,10 @@ namespace TimeTableManagementSystemNew
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(248, 535);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(331, 658);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 45);
+            this.button1.Size = new System.Drawing.Size(149, 55);
             this.button1.TabIndex = 71;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = false;
@@ -432,13 +420,13 @@ namespace TimeTableManagementSystemNew
             // 
             this.workgrid.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.workgrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.workgrid.Location = new System.Drawing.Point(621, 206);
-            this.workgrid.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.workgrid.Location = new System.Drawing.Point(828, 254);
+            this.workgrid.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.workgrid.Name = "workgrid";
             this.workgrid.RowHeadersWidth = 51;
             this.workgrid.RowTemplate.Height = 24;
             this.workgrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.workgrid.Size = new System.Drawing.Size(382, 283);
+            this.workgrid.Size = new System.Drawing.Size(509, 348);
             this.workgrid.TabIndex = 75;
             this.workgrid.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.workgrid_CellClick);
             // 
@@ -446,20 +434,19 @@ namespace TimeTableManagementSystemNew
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(655, 168);
-            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Location = new System.Drawing.Point(873, 207);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(70, 24);
+            this.label13.Size = new System.Drawing.Size(89, 29);
             this.label13.TabIndex = 77;
             this.label13.Text = "Search";
             // 
             // search
             // 
             this.search.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.search.Location = new System.Drawing.Point(726, 166);
-            this.search.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.search.Location = new System.Drawing.Point(968, 204);
+            this.search.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.search.Name = "search";
-            this.search.Size = new System.Drawing.Size(264, 29);
+            this.search.Size = new System.Drawing.Size(351, 34);
             this.search.TabIndex = 76;
             this.search.TextChanged += new System.EventHandler(this.search_TextChanged);
             // 
@@ -469,9 +456,10 @@ namespace TimeTableManagementSystemNew
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox5);
             this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Location = new System.Drawing.Point(-1, 0);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1020, 32);
+            this.panel1.Size = new System.Drawing.Size(1360, 39);
             this.panel1.TabIndex = 78;
             // 
             // pictureBox3
@@ -479,10 +467,10 @@ namespace TimeTableManagementSystemNew
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(991, 2);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Location = new System.Drawing.Point(1321, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(30, 31);
+            this.pictureBox3.Size = new System.Drawing.Size(40, 40);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 80;
             this.pictureBox3.TabStop = false;
@@ -492,9 +480,10 @@ namespace TimeTableManagementSystemNew
             // 
             this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(1319, 3);
+            this.pictureBox5.Location = new System.Drawing.Point(1759, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(39, 34);
+            this.pictureBox5.Size = new System.Drawing.Size(52, 42);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 79;
             this.pictureBox5.TabStop = false;
@@ -504,9 +493,10 @@ namespace TimeTableManagementSystemNew
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::TimeTableManagementSystemNew.Properties.Resources.icons8_reply_arrow_24;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox2.Location = new System.Drawing.Point(4, 0);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(32, 37);
+            this.pictureBox2.Size = new System.Drawing.Size(40, 40);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 74;
             this.pictureBox2.TabStop = false;
@@ -515,26 +505,28 @@ namespace TimeTableManagementSystemNew
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(130)))), ((int)(((byte)(32)))));
-            this.panel3.Location = new System.Drawing.Point(-1, 746);
+            this.panel3.Location = new System.Drawing.Point(-1, 918);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1361, 20);
+            this.panel3.Size = new System.Drawing.Size(1815, 25);
             this.panel3.TabIndex = 76;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(130)))), ((int)(((byte)(32)))));
             this.panel2.ForeColor = System.Drawing.Color.Black;
-            this.panel2.Location = new System.Drawing.Point(0, 604);
+            this.panel2.Location = new System.Drawing.Point(0, 743);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1020, 20);
+            this.panel2.Size = new System.Drawing.Size(1360, 25);
             this.panel2.TabIndex = 79;
             // 
             // WorkingDaysandHours
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1020, 624);
+            this.ClientSize = new System.Drawing.Size(1360, 768);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
@@ -572,7 +564,7 @@ namespace TimeTableManagementSystemNew
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "WorkingDaysandHours";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WorkingDaysandHours";
