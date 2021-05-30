@@ -172,20 +172,22 @@ namespace TimeTableManagementSystemNew
         {
             if (NotOverlappingId > 0)
             {
-                SqlCommand cmd = new SqlCommand("DELETE FROm tbl_not_overlapping WHERE NotOverlappingId = @NotOverlappingId", con);
-                cmd.CommandType = CommandType.Text;
+                if (MessageBox.Show("Are you sure to delete?", "Delete Record", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    SqlCommand cmd = new SqlCommand("DELETE FROm tbl_not_overlapping WHERE NotOverlappingId = @NotOverlappingId", con);
+                    cmd.CommandType = CommandType.Text;
 
-                cmd.Parameters.AddWithValue("@NotOverlappingId", this.NotOverlappingId);
+                    cmd.Parameters.AddWithValue("@NotOverlappingId", this.NotOverlappingId);
 
-                con.Open();
-                cmd.ExecuteNonQuery();
-                con.Close();
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
 
-                MessageBox.Show("Non-Overlapping Session Deleted Successfully", "Deleted", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                  
+                    GetNonOverlappingRecords();
 
-                GetNonOverlappingRecords();
-
-                ResetFormControls();
+                    ResetFormControls();
+                }
             }
             else
             {

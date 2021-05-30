@@ -162,19 +162,22 @@ namespace TimeTableManagementSystemNew
         {
             if (NotALid > 0)
             {
-                SqlCommand cmd = new SqlCommand("DELETE FROM Not_Available_Location WHERE Not_Available_LocID=@ID", con);
-                cmd.CommandType = CommandType.Text;
+                if (MessageBox.Show("Are you sure to delete?", "Delete Record", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    SqlCommand cmd = new SqlCommand("DELETE FROM Not_Available_Location WHERE Not_Available_LocID=@ID", con);
+                    cmd.CommandType = CommandType.Text;
 
-                cmd.Parameters.AddWithValue("@ID", this.NotALid);
-                con.Open();
-                cmd.ExecuteNonQuery();
-                con.Close();
+                    cmd.Parameters.AddWithValue("@ID", this.NotALid);
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
 
-                MessageBox.Show("Successfully Deleted Not Available Time", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                GetNotAvailableLocationRecord();
+                  
+                    GetNotAvailableLocationRecord();
 
 
-                ResetValue();
+                    ResetValue();
+                }
             }
             else
             {

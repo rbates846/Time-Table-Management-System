@@ -218,19 +218,22 @@ namespace TimeTableManagementSystemNew
         {
             if (PrefId > 0)
             {
-                SqlCommand cmd = new SqlCommand("DELETE FROM Preferred_Time WHERE Preferred_ID=@ID", con);
-                cmd.CommandType = CommandType.Text;
+                if (MessageBox.Show("Are you sure to delete?", "Delete Record", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    SqlCommand cmd = new SqlCommand("DELETE FROM Preferred_Time WHERE Preferred_ID=@ID", con);
+                    cmd.CommandType = CommandType.Text;
 
-                cmd.Parameters.AddWithValue("@ID", this.PrefId);
-                con.Open();
-                cmd.ExecuteNonQuery();
-                con.Close();
+                    cmd.Parameters.AddWithValue("@ID", this.PrefId);
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
 
-                MessageBox.Show("Successfully Deleted Preferred Time", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                GetPreferredTimeRecord();
+                   
+                    GetPreferredTimeRecord();
 
 
-                ResetValue();
+                    ResetValue();
+                }
             }
             else
             {

@@ -208,20 +208,22 @@ namespace TimeTableManagementSystemNew
         {
             if (ParallelId > 0)
             {
-                SqlCommand cmd = new SqlCommand("DELETE FROm tbl_parallel WHERE ParallelId = @ParallelId", con);
-                cmd.CommandType = CommandType.Text;
+                if (MessageBox.Show("Are you sure to delete?", "Delete Record", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    SqlCommand cmd = new SqlCommand("DELETE FROm tbl_parallel WHERE ParallelId = @ParallelId", con);
+                    cmd.CommandType = CommandType.Text;
 
-                cmd.Parameters.AddWithValue("@ParallelId", this.ParallelId);
+                    cmd.Parameters.AddWithValue("@ParallelId", this.ParallelId);
 
-                con.Open();
-                cmd.ExecuteNonQuery();
-                con.Close();
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
 
-                MessageBox.Show("Parallel Session Deleted Successfully", "Deleted", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                GetParallelRecord();
+                    GetParallelRecord();
 
-                ResetFormControls();
+                    ResetFormControls();
+                }
             }
             else
             {

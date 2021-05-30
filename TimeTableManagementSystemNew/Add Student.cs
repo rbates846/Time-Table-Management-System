@@ -169,24 +169,26 @@ namespace TimeTableManagementSystemNew
         {
             if (StudentID > 0)
             {
-                SqlCommand cmd = new SqlCommand("DELETE FROm tbl_student WHERE StudentID = @StudentID", con);
-                cmd.CommandType = CommandType.Text;
+                if (MessageBox.Show("Are you sure to delete?", "Delete Record", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    SqlCommand cmd = new SqlCommand("DELETE FROm tbl_student WHERE StudentID = @StudentID", con);
+                    cmd.CommandType = CommandType.Text;
 
-                cmd.Parameters.AddWithValue("@StudentID", this.StudentID);
+                    cmd.Parameters.AddWithValue("@StudentID", this.StudentID);
 
-                con.Open();
-                cmd.ExecuteNonQuery();
-                con.Close();
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
 
-                MessageBox.Show("Student Deleted Successfully", "Deleted", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    
+                    GetStudentsRecord();
 
-                GetStudentsRecord();
-
-                ResetFormControls();
+                    ResetFormControls();
+                }
             }
             else
             {
-                MessageBox.Show("Select Student to Delete", "Select", MessageBoxButtons.OK, MessageBoxIcon.Error);  
+                MessageBox.Show("Select Student to Delete", "Select", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
