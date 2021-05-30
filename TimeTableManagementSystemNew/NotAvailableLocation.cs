@@ -189,5 +189,14 @@ namespace TimeTableManagementSystemNew
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            string keyword = textBox1.Text;
+            SqlDataAdapter sda = new SqlDataAdapter("SELECT * FROM Not_Available_Location WHERE Room LIKE '%" + keyword + "%' OR Day LIKE '%" + keyword + "%'", con);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            dataGridView2.DataSource = dt;
+        }
     }
 }

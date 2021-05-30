@@ -56,20 +56,20 @@ namespace TimeTableManagementSystemNew
             // 
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(97, 208);
+            this.comboBox1.Location = new System.Drawing.Point(25, 208);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(300, 37);
+            this.comboBox1.Size = new System.Drawing.Size(523, 37);
             this.comboBox1.TabIndex = 77;
             // 
             // comboBox2
             // 
             this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(97, 343);
+            this.comboBox2.Location = new System.Drawing.Point(25, 343);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(300, 37);
+            this.comboBox2.Size = new System.Drawing.Size(523, 37);
             this.comboBox2.TabIndex = 78;
             // 
             // label1
@@ -100,7 +100,7 @@ namespace TimeTableManagementSystemNew
             this.dgvConsecutivelList.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dgvConsecutivelList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvConsecutivelList.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dgvConsecutivelList.Location = new System.Drawing.Point(516, 171);
+            this.dgvConsecutivelList.Location = new System.Drawing.Point(580, 171);
             this.dgvConsecutivelList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvConsecutivelList.Name = "dgvConsecutivelList";
             this.dgvConsecutivelList.RowHeadersWidth = 51;

@@ -169,5 +169,21 @@ namespace TimeTableManagementSystemNew
             
 
         }
+
+        private void txtBoxSearch_TextChanged(object sender, EventArgs e)
+        {
+            ///Get the Value from Text Box
+
+            string keyword = txtBoxSearch.Text;
+            SqlDataAdapter sda = new SqlDataAdapter("SELECT * Session_Location FROM  WHERE Selected_Session LIKE '%" + keyword + "%'", con);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            dataGridView1.DataSource = dt;
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

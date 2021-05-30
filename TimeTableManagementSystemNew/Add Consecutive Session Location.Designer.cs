@@ -65,6 +65,7 @@ namespace TimeTableManagementSystemNew
             this.dgvConsecutiveLocationlList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvConsecutiveLocationlList.Size = new System.Drawing.Size(474, 353);
             this.dgvConsecutiveLocationlList.TabIndex = 82;
+            this.dgvConsecutiveLocationlList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvConsecutiveLocationlList_CellContentClick);
             // 
             // label2
             // 

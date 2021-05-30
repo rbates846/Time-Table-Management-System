@@ -62,19 +62,19 @@
             this.panel1.Controls.Add(this.pictureBox5);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1020, 32);
+            this.panel1.Size = new System.Drawing.Size(1360, 39);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(988, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(1317, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(30, 32);
+            this.pictureBox1.Size = new System.Drawing.Size(40, 39);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 51;
             this.pictureBox1.TabStop = false;
@@ -83,10 +83,10 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(1492, 0);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox5.Location = new System.Drawing.Point(1989, 0);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(30, 32);
+            this.pictureBox5.Size = new System.Drawing.Size(40, 39);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 3;
             this.pictureBox5.TabStop = false;
@@ -95,10 +95,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::TimeTableManagementSystemNew.Properties.Resources.icons8_reply_arrow_24;
-            this.pictureBox2.Location = new System.Drawing.Point(2, 2);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Location = new System.Drawing.Point(3, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(36, 28);
+            this.pictureBox2.Size = new System.Drawing.Size(48, 34);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -111,10 +111,10 @@
             this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.button1);
-            this.panel2.Location = new System.Drawing.Point(29, 207);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Location = new System.Drawing.Point(39, 255);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(140, 388);
+            this.panel2.Size = new System.Drawing.Size(187, 478);
             this.panel2.TabIndex = 7;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -122,10 +122,10 @@
             // 
             this.button4.BackColor = System.Drawing.Color.White;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(2, 2);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Location = new System.Drawing.Point(3, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(136, 85);
+            this.button4.Size = new System.Drawing.Size(181, 105);
             this.button4.TabIndex = 14;
             this.button4.Text = "Consecutive";
             this.button4.UseVisualStyleBackColor = false;
@@ -135,10 +135,10 @@
             // 
             this.button3.BackColor = System.Drawing.Color.White;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(2, 102);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Location = new System.Drawing.Point(3, 126);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(136, 85);
+            this.button3.Size = new System.Drawing.Size(181, 105);
             this.button3.TabIndex = 13;
             this.button3.Text = "Parallel";
             this.button3.UseVisualStyleBackColor = false;
@@ -148,10 +148,10 @@
             // 
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(2, 201);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(3, 247);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(136, 85);
+            this.button2.Size = new System.Drawing.Size(181, 105);
             this.button2.TabIndex = 12;
             this.button2.Text = "Non Overlapping";
             this.button2.UseVisualStyleBackColor = false;
@@ -161,10 +161,10 @@
             // 
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(2, 298);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(3, 367);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 85);
+            this.button1.Size = new System.Drawing.Size(181, 105);
             this.button1.TabIndex = 9;
             this.button1.Text = "Not Available";
             this.button1.UseVisualStyleBackColor = false;
@@ -173,19 +173,19 @@
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(130)))), ((int)(((byte)(32)))));
-            this.panel11.Location = new System.Drawing.Point(0, 849);
-            this.panel11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel11.Location = new System.Drawing.Point(0, 1045);
+            this.panel11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(1538, 16);
+            this.panel11.Size = new System.Drawing.Size(2051, 20);
             this.panel11.TabIndex = 3;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(22, 61);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Location = new System.Drawing.Point(29, 75);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(112, 122);
+            this.pictureBox3.Size = new System.Drawing.Size(149, 150);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 6;
             this.pictureBox3.TabStop = false;
@@ -194,56 +194,56 @@
             // not_Overlapping_Session1
             // 
             this.not_Overlapping_Session1.BackColor = System.Drawing.Color.White;
-            this.not_Overlapping_Session1.Location = new System.Drawing.Point(172, 60);
-            this.not_Overlapping_Session1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.not_Overlapping_Session1.Location = new System.Drawing.Point(229, 75);
+            this.not_Overlapping_Session1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.not_Overlapping_Session1.Name = "not_Overlapping_Session1";
-            this.not_Overlapping_Session1.Size = new System.Drawing.Size(848, 528);
+            this.not_Overlapping_Session1.Size = new System.Drawing.Size(1131, 650);
             this.not_Overlapping_Session1.TabIndex = 10;
             // 
             // consecutive_Session1
             // 
             this.consecutive_Session1.BackColor = System.Drawing.Color.White;
-            this.consecutive_Session1.Location = new System.Drawing.Point(174, 59);
-            this.consecutive_Session1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.consecutive_Session1.Location = new System.Drawing.Point(229, 83);
+            this.consecutive_Session1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.consecutive_Session1.Name = "consecutive_Session1";
-            this.consecutive_Session1.Size = new System.Drawing.Size(848, 528);
+            this.consecutive_Session1.Size = new System.Drawing.Size(1131, 650);
             this.consecutive_Session1.TabIndex = 9;
             // 
             // notAvailableTime1
             // 
             this.notAvailableTime1.BackColor = System.Drawing.Color.White;
-            this.notAvailableTime1.Location = new System.Drawing.Point(174, 59);
-            this.notAvailableTime1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.notAvailableTime1.Location = new System.Drawing.Point(229, 75);
+            this.notAvailableTime1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.notAvailableTime1.Name = "notAvailableTime1";
-            this.notAvailableTime1.Size = new System.Drawing.Size(848, 528);
+            this.notAvailableTime1.Size = new System.Drawing.Size(1119, 650);
             this.notAvailableTime1.TabIndex = 8;
             // 
             // parallel_Session1
             // 
             this.parallel_Session1.BackColor = System.Drawing.Color.White;
-            this.parallel_Session1.Location = new System.Drawing.Point(174, 67);
-            this.parallel_Session1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.parallel_Session1.Location = new System.Drawing.Point(229, 75);
+            this.parallel_Session1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parallel_Session1.Name = "parallel_Session1";
-            this.parallel_Session1.Size = new System.Drawing.Size(848, 528);
+            this.parallel_Session1.Size = new System.Drawing.Size(1116, 650);
             this.parallel_Session1.TabIndex = 11;
             // 
             // panel3
             // 
             this.panel3.AutoSize = true;
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(130)))), ((int)(((byte)(32)))));
-            this.panel3.Location = new System.Drawing.Point(2, 608);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Location = new System.Drawing.Point(3, 748);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1020, 16);
+            this.panel3.Size = new System.Drawing.Size(1360, 20);
             this.panel3.TabIndex = 67;
             // 
             // ManageNotAvailableTime
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1020, 624);
+            this.ClientSize = new System.Drawing.Size(1360, 768);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.parallel_Session1);
             this.Controls.Add(this.not_Overlapping_Session1);
@@ -254,7 +254,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ManageNotAvailableTime";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ManageNotAvailableTime";
