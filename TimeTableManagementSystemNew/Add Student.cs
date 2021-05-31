@@ -85,9 +85,11 @@ namespace TimeTableManagementSystemNew
             string a = txtBoxAcedemicYearAndSemester.Text;
             int b = (int)GroupNumber.Value;
             int c = (int)SubGroupNumber.Value;
+            string z = txtBoxProgramme.Text.ToString();
 
             string d = a + "." + b;
-            string f = d + "." + c;
+            string f = a + "." + z + "." + b + "." + c;
+           
 
             txtBoxGroupId.Text = d;
             txtBoxSubGroupId.Text = f;
@@ -208,6 +210,11 @@ namespace TimeTableManagementSystemNew
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void txtBoxSubGroupId_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

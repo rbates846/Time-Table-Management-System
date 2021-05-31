@@ -80,7 +80,7 @@ namespace TimeTableManagementSystemNew
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(9, 156);
+            this.label1.Location = new System.Drawing.Point(25, 155);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(191, 25);
             this.label1.TabIndex = 4;
@@ -103,7 +103,7 @@ namespace TimeTableManagementSystemNew
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(37, 18);
+            this.pictureBox1.Location = new System.Drawing.Point(47, 18);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(147, 135);
@@ -130,7 +130,7 @@ namespace TimeTableManagementSystemNew
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(3, 156);
+            this.label3.Location = new System.Drawing.Point(12, 156);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(207, 25);
             this.label3.TabIndex = 4;
@@ -168,11 +168,11 @@ namespace TimeTableManagementSystemNew
             // 
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(39, 32);
+            this.pictureBox3.Location = new System.Drawing.Point(23, 18);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(160, 121);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.Size = new System.Drawing.Size(185, 148);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             this.ManEmp.SetToolTip(this.pictureBox3, "Click to Mange prefered Time");
@@ -218,7 +218,7 @@ namespace TimeTableManagementSystemNew
             this.Controls.Add(this.guna2ShadowPanel1);
             this.Controls.Add(this.guna2ShadowPanel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PopupEmployee";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.guna2ShadowPanel1.ResumeLayout(false);

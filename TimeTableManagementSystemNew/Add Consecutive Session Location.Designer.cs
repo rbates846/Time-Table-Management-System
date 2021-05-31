@@ -65,6 +65,7 @@ namespace TimeTableManagementSystemNew
             this.dgvConsecutiveLocationlList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvConsecutiveLocationlList.Size = new System.Drawing.Size(474, 353);
             this.dgvConsecutiveLocationlList.TabIndex = 82;
+            this.dgvConsecutiveLocationlList.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvConsecutiveLocationlList_CellClick);
             this.dgvConsecutiveLocationlList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvConsecutiveLocationlList_CellContentClick);
             // 
             // label2
@@ -102,7 +103,7 @@ namespace TimeTableManagementSystemNew
             // 
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(3, 144);
+            this.comboBox1.Location = new System.Drawing.Point(18, 144);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(300, 37);
@@ -151,17 +152,21 @@ namespace TimeTableManagementSystemNew
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
             this.textBox1.Location = new System.Drawing.Point(18, 386);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(606, 34);
             this.textBox1.TabIndex = 91;
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
             this.textBox2.Location = new System.Drawing.Point(18, 477);
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(606, 34);
             this.textBox2.TabIndex = 92;
             // 
@@ -248,6 +253,7 @@ namespace TimeTableManagementSystemNew
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnGenerateId);
             this.Controls.Add(this.label7);

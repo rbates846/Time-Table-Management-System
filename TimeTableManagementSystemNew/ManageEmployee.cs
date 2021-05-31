@@ -16,9 +16,12 @@ namespace TimeTableManagementSystemNew
         public ManageEmployee()
         {
             InitializeComponent();
+            
         }
 
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\TimeTable.mdf;Integrated Security=True");
+        
+
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\TimeTable.mdf;Integrated Security=True");
         public int EID;
 
         private void ManageEmployee_Load(object sender, EventArgs e)
@@ -241,6 +244,11 @@ namespace TimeTableManagementSystemNew
             cmbBuilding.Text = GrdEmployeeData.SelectedRows[0].Cells[6].Value.ToString();
             cmbLevel.Text = GrdEmployeeData.SelectedRows[0].Cells[7].Value.ToString();
             txtGenRank.Text = GrdEmployeeData.SelectedRows[0].Cells[8].Value.ToString();
+        }
+
+        private void cmbBuilding_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -67,7 +67,7 @@ namespace TimeTableManagementSystemNew
             this.clear = new System.Windows.Forms.ToolTip(this.components);
             this.update = new System.Windows.Forms.ToolTip(this.components);
             this.delete = new System.Windows.Forms.ToolTip(this.components);
-            this.cmbDuration = new System.Windows.Forms.ComboBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.numStudents)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
@@ -81,7 +81,7 @@ namespace TimeTableManagementSystemNew
             this.comSubCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comSubCode.FormattingEnabled = true;
             this.comSubCode.Location = new System.Drawing.Point(339, 309);
-            this.comSubCode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comSubCode.Margin = new System.Windows.Forms.Padding(4);
             this.comSubCode.Name = "comSubCode";
             this.comSubCode.Size = new System.Drawing.Size(292, 37);
             this.comSubCode.TabIndex = 114;
@@ -102,7 +102,7 @@ namespace TimeTableManagementSystemNew
             // 
             this.numStudents.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numStudents.Location = new System.Drawing.Point(340, 511);
-            this.numStudents.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numStudents.Margin = new System.Windows.Forms.Padding(4);
             this.numStudents.Name = "numStudents";
             this.numStudents.Size = new System.Drawing.Size(293, 34);
             this.numStudents.TabIndex = 112;
@@ -112,7 +112,7 @@ namespace TimeTableManagementSystemNew
             this.cmbSelEmp.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbSelEmp.FormattingEnabled = true;
             this.cmbSelEmp.Location = new System.Drawing.Point(339, 217);
-            this.cmbSelEmp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbSelEmp.Margin = new System.Windows.Forms.Padding(4);
             this.cmbSelEmp.Name = "cmbSelEmp";
             this.cmbSelEmp.Size = new System.Drawing.Size(292, 37);
             this.cmbSelEmp.TabIndex = 109;
@@ -124,7 +124,7 @@ namespace TimeTableManagementSystemNew
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblAddSession.AutoSize = true;
             this.lblAddSession.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAddSession.Location = new System.Drawing.Point(509, 58);
+            this.lblAddSession.Location = new System.Drawing.Point(509, 65);
             this.lblAddSession.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAddSession.Name = "lblAddSession";
             this.lblAddSession.Size = new System.Drawing.Size(361, 52);
@@ -136,7 +136,7 @@ namespace TimeTableManagementSystemNew
             this.cmbSub.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbSub.FormattingEnabled = true;
             this.cmbSub.Location = new System.Drawing.Point(340, 358);
-            this.cmbSub.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbSub.Margin = new System.Windows.Forms.Padding(4);
             this.cmbSub.Name = "cmbSub";
             this.cmbSub.Size = new System.Drawing.Size(292, 37);
             this.cmbSub.TabIndex = 103;
@@ -146,7 +146,7 @@ namespace TimeTableManagementSystemNew
             this.cmbGrp.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbGrp.FormattingEnabled = true;
             this.cmbGrp.Location = new System.Drawing.Point(340, 460);
-            this.cmbGrp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbGrp.Margin = new System.Windows.Forms.Padding(4);
             this.cmbGrp.Name = "cmbGrp";
             this.cmbGrp.Size = new System.Drawing.Size(292, 37);
             this.cmbGrp.TabIndex = 102;
@@ -155,10 +155,10 @@ namespace TimeTableManagementSystemNew
             // 
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(4, 0);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(43, 39);
+            this.pictureBox3.Size = new System.Drawing.Size(40, 40);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
@@ -169,7 +169,7 @@ namespace TimeTableManagementSystemNew
             this.cmbSelTag.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbSelTag.FormattingEnabled = true;
             this.cmbSelTag.Location = new System.Drawing.Point(340, 409);
-            this.cmbSelTag.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbSelTag.Margin = new System.Windows.Forms.Padding(4);
             this.cmbSelTag.Name = "cmbSelTag";
             this.cmbSelTag.Size = new System.Drawing.Size(292, 37);
             this.cmbSelTag.TabIndex = 110;
@@ -230,9 +230,9 @@ namespace TimeTableManagementSystemNew
             this.lblSelectEmp.Location = new System.Drawing.Point(73, 220);
             this.lblSelectEmp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSelectEmp.Name = "lblSelectEmp";
-            this.lblSelectEmp.Size = new System.Drawing.Size(230, 29);
+            this.lblSelectEmp.Size = new System.Drawing.Size(202, 29);
             this.lblSelectEmp.TabIndex = 95;
-            this.lblSelectEmp.Text = "Select Employee(s) ";
+            this.lblSelectEmp.Text = "Select Employee ";
             // 
             // panel2
             // 
@@ -251,7 +251,7 @@ namespace TimeTableManagementSystemNew
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.ForeColor = System.Drawing.Color.Black;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1360, 39);
             this.panel1.TabIndex = 93;
@@ -262,7 +262,7 @@ namespace TimeTableManagementSystemNew
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(1313, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(47, 39);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -274,7 +274,7 @@ namespace TimeTableManagementSystemNew
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(16, 58);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(165, 153);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -309,10 +309,11 @@ namespace TimeTableManagementSystemNew
             // 
             this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(9)))), ((int)(((byte)(20)))));
             this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.White;
             this.btnDelete.Location = new System.Drawing.Point(909, 673);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(149, 50);
             this.btnDelete.TabIndex = 120;
@@ -325,10 +326,11 @@ namespace TimeTableManagementSystemNew
             // 
             this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(106)))), ((int)(((byte)(255)))));
             this.btnUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
             this.btnUpdate.Location = new System.Drawing.Point(697, 673);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(149, 50);
             this.btnUpdate.TabIndex = 119;
@@ -357,7 +359,7 @@ namespace TimeTableManagementSystemNew
             this.GrdsessionData.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.GrdsessionData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.GrdsessionData.Location = new System.Drawing.Point(664, 223);
-            this.GrdsessionData.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GrdsessionData.Margin = new System.Windows.Forms.Padding(4);
             this.GrdsessionData.Name = "GrdsessionData";
             this.GrdsessionData.RowHeadersWidth = 51;
             this.GrdsessionData.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -382,7 +384,7 @@ namespace TimeTableManagementSystemNew
             this.ManSesID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ManSesID.HoverState.Parent = this.ManSesID;
             this.ManSesID.Location = new System.Drawing.Point(481, 166);
-            this.ManSesID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ManSesID.Margin = new System.Windows.Forms.Padding(4);
             this.ManSesID.Name = "ManSesID";
             this.ManSesID.PasswordChar = '\0';
             this.ManSesID.PlaceholderText = "";
@@ -405,7 +407,7 @@ namespace TimeTableManagementSystemNew
             "Subject code",
             "Tag"});
             this.comboBox3.Location = new System.Drawing.Point(785, 170);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(211, 32);
             this.comboBox3.TabIndex = 130;
@@ -416,10 +418,11 @@ namespace TimeTableManagementSystemNew
             // 
             this.btnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(123)))), ((int)(((byte)(202)))));
             this.btnClear.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.White;
             this.btnClear.Location = new System.Drawing.Point(484, 673);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(149, 50);
             this.btnClear.TabIndex = 131;
@@ -442,12 +445,13 @@ namespace TimeTableManagementSystemNew
             // 
             // btnOk
             // 
-            this.btnOk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(142)))), ((int)(((byte)(151)))));
+            this.btnOk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(185)))), ((int)(((byte)(0)))));
             this.btnOk.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnOk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOk.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOk.ForeColor = System.Drawing.Color.White;
             this.btnOk.Location = new System.Drawing.Point(271, 673);
-            this.btnOk.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnOk.Margin = new System.Windows.Forms.Padding(4);
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(149, 50);
             this.btnOk.TabIndex = 135;
@@ -460,7 +464,7 @@ namespace TimeTableManagementSystemNew
             this.cmbSelected.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbSelected.FormattingEnabled = true;
             this.cmbSelected.Location = new System.Drawing.Point(340, 262);
-            this.cmbSelected.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbSelected.Margin = new System.Windows.Forms.Padding(4);
             this.cmbSelected.Name = "cmbSelected";
             this.cmbSelected.Size = new System.Drawing.Size(292, 37);
             this.cmbSelected.TabIndex = 136;
@@ -469,7 +473,7 @@ namespace TimeTableManagementSystemNew
             // 
             this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.Location = new System.Drawing.Point(1005, 170);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(4);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(260, 29);
             this.txtSearch.TabIndex = 137;
@@ -478,23 +482,24 @@ namespace TimeTableManagementSystemNew
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(339, 614);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(821, 34);
             this.textBox1.TabIndex = 139;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // cmbDuration
+            // textBox2
             // 
-            this.cmbDuration.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbDuration.FormattingEnabled = true;
-            this.cmbDuration.Location = new System.Drawing.Point(341, 563);
-            this.cmbDuration.Margin = new System.Windows.Forms.Padding(4);
-            this.cmbDuration.Name = "cmbDuration";
-            this.cmbDuration.Size = new System.Drawing.Size(292, 37);
-            this.cmbDuration.TabIndex = 140;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(339, 563);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(292, 34);
+            this.textBox2.TabIndex = 140;
             // 
             // ManageSessionN
             // 
@@ -502,7 +507,7 @@ namespace TimeTableManagementSystemNew
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1360, 768);
-            this.Controls.Add(this.cmbDuration);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.cmbSelected);
@@ -534,7 +539,7 @@ namespace TimeTableManagementSystemNew
             this.Controls.Add(this.lblSelGrp);
             this.Controls.Add(this.lblStu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ManageSessionN";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ManageSessionN";
@@ -587,6 +592,6 @@ namespace TimeTableManagementSystemNew
         private System.Windows.Forms.ToolTip clear;
         private System.Windows.Forms.ToolTip update;
         private System.Windows.Forms.ToolTip delete;
-        private System.Windows.Forms.ComboBox cmbDuration;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }

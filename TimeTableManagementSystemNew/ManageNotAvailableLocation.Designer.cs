@@ -62,18 +62,18 @@
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.pictureBox5);
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1020, 32);
+            this.panel1.Size = new System.Drawing.Size(1360, 39);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(982, 2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(1309, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(29, 28);
+            this.pictureBox1.Size = new System.Drawing.Size(39, 34);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 66;
             this.pictureBox1.TabStop = false;
@@ -82,10 +82,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::TimeTableManagementSystemNew.Properties.Resources.icons8_reply_arrow_24;
-            this.pictureBox2.Location = new System.Drawing.Point(2, 2);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Location = new System.Drawing.Point(3, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(36, 28);
+            this.pictureBox2.Size = new System.Drawing.Size(48, 34);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 65;
             this.pictureBox2.TabStop = false;
@@ -93,10 +93,10 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(1492, 0);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox5.Location = new System.Drawing.Point(1989, 0);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(29, 28);
+            this.pictureBox5.Size = new System.Drawing.Size(39, 34);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 62;
             this.pictureBox5.TabStop = false;
@@ -108,20 +108,20 @@
             this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.button6);
             this.panel2.Controls.Add(this.button8);
-            this.panel2.Location = new System.Drawing.Point(26, 174);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Location = new System.Drawing.Point(35, 214);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(140, 411);
+            this.panel2.Size = new System.Drawing.Size(187, 506);
             this.panel2.TabIndex = 62;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(2, 308);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(3, 379);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 83);
+            this.button1.Size = new System.Drawing.Size(181, 102);
             this.button1.TabIndex = 15;
             this.button1.Text = "Generate";
             this.button1.UseVisualStyleBackColor = false;
@@ -131,10 +131,10 @@
             // 
             this.button3.BackColor = System.Drawing.Color.White;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(2, 14);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Location = new System.Drawing.Point(3, 17);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(136, 83);
+            this.button3.Size = new System.Drawing.Size(181, 102);
             this.button3.TabIndex = 14;
             this.button3.Text = "Session";
             this.button3.UseVisualStyleBackColor = false;
@@ -144,10 +144,10 @@
             // 
             this.button6.BackColor = System.Drawing.Color.White;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(2, 110);
-            this.button6.Margin = new System.Windows.Forms.Padding(2);
+            this.button6.Location = new System.Drawing.Point(3, 135);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(136, 83);
+            this.button6.Size = new System.Drawing.Size(181, 102);
             this.button6.TabIndex = 13;
             this.button6.Text = "Consecutive";
             this.button6.UseVisualStyleBackColor = false;
@@ -157,10 +157,10 @@
             // 
             this.button8.BackColor = System.Drawing.Color.White;
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(2, 209);
-            this.button8.Margin = new System.Windows.Forms.Padding(2);
+            this.button8.Location = new System.Drawing.Point(3, 257);
+            this.button8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(136, 83);
+            this.button8.Size = new System.Drawing.Size(181, 102);
             this.button8.TabIndex = 9;
             this.button8.Text = "Not Available";
             this.button8.UseVisualStyleBackColor = false;
@@ -169,47 +169,47 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(130)))), ((int)(((byte)(32)))));
-            this.panel3.Location = new System.Drawing.Point(0, 849);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2);
+            this.panel3.Location = new System.Drawing.Point(0, 1045);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1538, 16);
+            this.panel3.Size = new System.Drawing.Size(2051, 20);
             this.panel3.TabIndex = 64;
             // 
             // add_Consecutive_Session_Location1
             // 
-            this.add_Consecutive_Session_Location1.Location = new System.Drawing.Point(170, 57);
-            this.add_Consecutive_Session_Location1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.add_Consecutive_Session_Location1.Location = new System.Drawing.Point(227, 70);
+            this.add_Consecutive_Session_Location1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.add_Consecutive_Session_Location1.Name = "add_Consecutive_Session_Location1";
-            this.add_Consecutive_Session_Location1.Size = new System.Drawing.Size(850, 528);
+            this.add_Consecutive_Session_Location1.Size = new System.Drawing.Size(1133, 650);
             this.add_Consecutive_Session_Location1.TabIndex = 69;
             this.add_Consecutive_Session_Location1.Load += new System.EventHandler(this.add_Consecutive_Session_Location1_Load);
             // 
             // addSessionLocation2
             // 
             this.addSessionLocation2.BackColor = System.Drawing.Color.White;
-            this.addSessionLocation2.Location = new System.Drawing.Point(170, 70);
-            this.addSessionLocation2.Margin = new System.Windows.Forms.Padding(2);
+            this.addSessionLocation2.Location = new System.Drawing.Point(227, 86);
+            this.addSessionLocation2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.addSessionLocation2.Name = "addSessionLocation2";
-            this.addSessionLocation2.Size = new System.Drawing.Size(837, 528);
+            this.addSessionLocation2.Size = new System.Drawing.Size(1116, 650);
             this.addSessionLocation2.TabIndex = 67;
             // 
             // notAvailableLocation1
             // 
             this.notAvailableLocation1.BackColor = System.Drawing.Color.White;
-            this.notAvailableLocation1.Location = new System.Drawing.Point(174, 68);
-            this.notAvailableLocation1.Margin = new System.Windows.Forms.Padding(2);
+            this.notAvailableLocation1.Location = new System.Drawing.Point(232, 84);
+            this.notAvailableLocation1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.notAvailableLocation1.Name = "notAvailableLocation1";
-            this.notAvailableLocation1.Size = new System.Drawing.Size(848, 528);
+            this.notAvailableLocation1.Size = new System.Drawing.Size(1131, 650);
             this.notAvailableLocation1.TabIndex = 65;
             this.notAvailableLocation1.Load += new System.EventHandler(this.notAvailableLocation1_Load_1);
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(29, 37);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox3.Location = new System.Drawing.Point(39, 46);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(112, 122);
+            this.pictureBox3.Size = new System.Drawing.Size(149, 150);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 7;
             this.pictureBox3.TabStop = false;
@@ -220,27 +220,29 @@
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(130)))), ((int)(((byte)(32)))));
             this.panel4.Controls.Add(this.pictureBox4);
             this.panel4.ForeColor = System.Drawing.Color.Black;
-            this.panel4.Location = new System.Drawing.Point(1, 604);
+            this.panel4.Location = new System.Drawing.Point(0, 743);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1020, 16);
+            this.panel4.Size = new System.Drawing.Size(1360, 20);
             this.panel4.TabIndex = 70;
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(1367, 0);
+            this.pictureBox4.Location = new System.Drawing.Point(1823, 0);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox4.Size = new System.Drawing.Size(24, 22);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 78;
             this.pictureBox4.TabStop = false;
             // 
             // ManageNotAvailableLocation
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1020, 624);
+            this.ClientSize = new System.Drawing.Size(1360, 768);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.add_Consecutive_Session_Location1);
             this.Controls.Add(this.addSessionLocation2);
@@ -250,7 +252,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ManageNotAvailableLocation";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ManageNotAvailableLocation";

@@ -261,7 +261,14 @@ namespace TimeTableManagementSystemNew
 
         private void GrdActiveHrs_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-           
+            ID = Convert.ToInt32(GrdActiveHrs.SelectedRows[0].Cells[0].Value);
+            cmbEmpName.Text = GrdActiveHrs.SelectedRows[0].Cells[1].Value.ToString();
+            textRank.Text = GrdActiveHrs.SelectedRows[0].Cells[2].Value.ToString();
+            numDays.Text = GrdActiveHrs.SelectedRows[0].Cells[3].Value.ToString();
+            getAllDetails();
+
+            numHrs.Text = GrdActiveHrs.SelectedRows[0].Cells[5].Value.ToString();
+            numMin.Text = GrdActiveHrs.SelectedRows[0].Cells[6].Value.ToString();
 
         }
 
@@ -325,14 +332,7 @@ namespace TimeTableManagementSystemNew
 
         private void GrdActiveHrs_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            ID = Convert.ToInt32(GrdActiveHrs.SelectedRows[0].Cells[0].Value);
-            cmbEmpName.Text = GrdActiveHrs.SelectedRows[0].Cells[1].Value.ToString();
-            textRank.Text = GrdActiveHrs.SelectedRows[0].Cells[2].Value.ToString();
-            numDays.Text = GrdActiveHrs.SelectedRows[0].Cells[3].Value.ToString();
-            getAllDetails();
-
-            numHrs.Text = GrdActiveHrs.SelectedRows[0].Cells[5].Value.ToString();
-            numMin.Text = GrdActiveHrs.SelectedRows[0].Cells[6].Value.ToString();
+            
         }
 
         private void txtboxSearch_TextChanged(object sender, EventArgs e)

@@ -16,7 +16,7 @@ namespace TimeTableManagementSystemNew
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ManageNotAvailableTime());
+            Application.Run(new Login());
         }
     }
 }

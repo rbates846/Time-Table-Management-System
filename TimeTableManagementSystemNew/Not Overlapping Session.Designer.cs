@@ -49,10 +49,10 @@ namespace TimeTableManagementSystemNew
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnClear.ForeColor = System.Drawing.Color.White;
-            this.btnClear.Location = new System.Drawing.Point(280, 456);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnClear.Location = new System.Drawing.Point(373, 561);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(112, 41);
+            this.btnClear.Size = new System.Drawing.Size(149, 50);
             this.btnClear.TabIndex = 78;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = false;
@@ -65,10 +65,10 @@ namespace TimeTableManagementSystemNew
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnSave.ForeColor = System.Drawing.Color.White;
-            this.btnSave.Location = new System.Drawing.Point(130, 456);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSave.Location = new System.Drawing.Point(173, 561);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(112, 41);
+            this.btnSave.Size = new System.Drawing.Size(149, 50);
             this.btnSave.TabIndex = 77;
             this.btnSave.Text = "Add";
             this.btnSave.UseVisualStyleBackColor = false;
@@ -78,10 +78,9 @@ namespace TimeTableManagementSystemNew
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold);
-            this.label7.Location = new System.Drawing.Point(225, 24);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(300, 30);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(423, 39);
+            this.label7.Size = new System.Drawing.Size(522, 51);
             this.label7.TabIndex = 79;
             this.label7.Text = "Not Overlapping Session";
             // 
@@ -89,10 +88,9 @@ namespace TimeTableManagementSystemNew
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
-            this.label2.Location = new System.Drawing.Point(490, 165);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(653, 203);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 24);
+            this.label2.Size = new System.Drawing.Size(129, 29);
             this.label2.TabIndex = 83;
             this.label2.Text = "Category 2";
             // 
@@ -100,10 +98,9 @@ namespace TimeTableManagementSystemNew
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
-            this.label1.Location = new System.Drawing.Point(216, 165);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(288, 203);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 24);
+            this.label1.Size = new System.Drawing.Size(129, 29);
             this.label1.TabIndex = 82;
             this.label1.Text = "Category 1";
             // 
@@ -111,20 +108,20 @@ namespace TimeTableManagementSystemNew
             // 
             this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(422, 200);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox2.Location = new System.Drawing.Point(563, 246);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(226, 30);
+            this.comboBox2.Size = new System.Drawing.Size(300, 37);
             this.comboBox2.TabIndex = 81;
             // 
             // comboBox1
             // 
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(152, 200);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox1.Location = new System.Drawing.Point(203, 246);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(226, 30);
+            this.comboBox1.Size = new System.Drawing.Size(300, 37);
             this.comboBox1.TabIndex = 80;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -135,10 +132,10 @@ namespace TimeTableManagementSystemNew
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnDelete.ForeColor = System.Drawing.Color.White;
-            this.btnDelete.Location = new System.Drawing.Point(573, 456);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDelete.Location = new System.Drawing.Point(764, 561);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(112, 41);
+            this.btnDelete.Size = new System.Drawing.Size(149, 50);
             this.btnDelete.TabIndex = 87;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
@@ -151,10 +148,10 @@ namespace TimeTableManagementSystemNew
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
-            this.btnUpdate.Location = new System.Drawing.Point(423, 456);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnUpdate.Location = new System.Drawing.Point(564, 561);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(112, 41);
+            this.btnUpdate.Size = new System.Drawing.Size(149, 50);
             this.btnUpdate.TabIndex = 86;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = false;
@@ -168,19 +165,19 @@ namespace TimeTableManagementSystemNew
             this.dgvNonOverlappingList.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dgvNonOverlappingList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvNonOverlappingList.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dgvNonOverlappingList.Location = new System.Drawing.Point(203, 254);
-            this.dgvNonOverlappingList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvNonOverlappingList.Location = new System.Drawing.Point(309, 310);
+            this.dgvNonOverlappingList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvNonOverlappingList.Name = "dgvNonOverlappingList";
             this.dgvNonOverlappingList.RowHeadersWidth = 51;
             this.dgvNonOverlappingList.RowTemplate.Height = 24;
             this.dgvNonOverlappingList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvNonOverlappingList.Size = new System.Drawing.Size(396, 171);
+            this.dgvNonOverlappingList.Size = new System.Drawing.Size(459, 210);
             this.dgvNonOverlappingList.TabIndex = 88;
             this.dgvNonOverlappingList.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvNonOverlappingList_RowHeaderMouseClick);
             // 
             // Not_Overlapping_Session
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.dgvNonOverlappingList);
@@ -193,9 +190,9 @@ namespace TimeTableManagementSystemNew
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnSave);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Not_Overlapping_Session";
-            this.Size = new System.Drawing.Size(848, 528);
+            this.Size = new System.Drawing.Size(1131, 650);
             this.Load += new System.EventHandler(this.Not_Overlapping_Session_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvNonOverlappingList)).EndInit();
             this.ResumeLayout(false);

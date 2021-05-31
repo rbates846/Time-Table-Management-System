@@ -151,6 +151,12 @@ namespace TimeTableManagementSystemNew
                 ResetFormControls();
             }
 
+            this.Close();
+            TimeTableGenerate FRM = new TimeTableGenerate();
+            FRM.Show();
+
+
+
         }
 
 

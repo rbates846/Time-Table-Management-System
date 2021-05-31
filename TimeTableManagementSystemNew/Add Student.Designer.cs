@@ -78,10 +78,10 @@ namespace TimeTableManagementSystemNew
             // lblSearch
             // 
             this.lblSearch.AutoSize = true;
-            this.lblSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSearch.Location = new System.Drawing.Point(837, 186);
+            this.lblSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSearch.Location = new System.Drawing.Point(778, 183);
             this.lblSearch.Name = "lblSearch";
-            this.lblSearch.Size = new System.Drawing.Size(75, 25);
+            this.lblSearch.Size = new System.Drawing.Size(89, 29);
             this.lblSearch.TabIndex = 72;
             this.lblSearch.Text = "Search";
             this.lblSearch.Click += new System.EventHandler(this.lblSearch_Click);
@@ -117,10 +117,10 @@ namespace TimeTableManagementSystemNew
             // txtBoxSearch
             // 
             this.txtBoxSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxSearch.Location = new System.Drawing.Point(917, 180);
+            this.txtBoxSearch.Location = new System.Drawing.Point(873, 180);
             this.txtBoxSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBoxSearch.Name = "txtBoxSearch";
-            this.txtBoxSearch.Size = new System.Drawing.Size(356, 34);
+            this.txtBoxSearch.Size = new System.Drawing.Size(442, 34);
             this.txtBoxSearch.TabIndex = 71;
             this.txtBoxSearch.TextChanged += new System.EventHandler(this.txtBoxSearch_TextChanged);
             // 
@@ -150,7 +150,7 @@ namespace TimeTableManagementSystemNew
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(1309, 2);
+            this.pictureBox4.Location = new System.Drawing.Point(1317, 0);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(40, 39);
@@ -173,7 +173,7 @@ namespace TimeTableManagementSystemNew
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::TimeTableManagementSystemNew.Properties.Resources.icons8_reply_arrow_24;
-            this.pictureBox2.Location = new System.Drawing.Point(9, 0);
+            this.pictureBox2.Location = new System.Drawing.Point(3, 0);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(40, 39);
@@ -279,19 +279,24 @@ namespace TimeTableManagementSystemNew
             // 
             // txtBoxSubGroupId
             // 
+            this.txtBoxSubGroupId.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtBoxSubGroupId.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
             this.txtBoxSubGroupId.Location = new System.Drawing.Point(401, 597);
             this.txtBoxSubGroupId.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBoxSubGroupId.Name = "txtBoxSubGroupId";
+            this.txtBoxSubGroupId.ReadOnly = true;
             this.txtBoxSubGroupId.Size = new System.Drawing.Size(300, 34);
             this.txtBoxSubGroupId.TabIndex = 60;
+            this.txtBoxSubGroupId.TextChanged += new System.EventHandler(this.txtBoxSubGroupId_TextChanged);
             // 
             // txtBoxGroupId
             // 
+            this.txtBoxGroupId.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtBoxGroupId.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
             this.txtBoxGroupId.Location = new System.Drawing.Point(401, 526);
             this.txtBoxGroupId.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBoxGroupId.Name = "txtBoxGroupId";
+            this.txtBoxGroupId.ReadOnly = true;
             this.txtBoxGroupId.Size = new System.Drawing.Size(300, 34);
             this.txtBoxGroupId.TabIndex = 59;
             // 
@@ -300,12 +305,10 @@ namespace TimeTableManagementSystemNew
             this.txtBoxProgramme.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
             this.txtBoxProgramme.FormattingEnabled = true;
             this.txtBoxProgramme.Items.AddRange(new object[] {
-            "Information Technology",
-            "Cyber Security",
-            "Software Engineering",
-            "Data Science",
-            "Interactive Media",
-            "Information System Engineering"});
+            "IT",
+            "CSSE",
+            "IM",
+            "CSE"});
             this.txtBoxProgramme.Location = new System.Drawing.Point(401, 313);
             this.txtBoxProgramme.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBoxProgramme.Name = "txtBoxProgramme";
@@ -405,7 +408,7 @@ namespace TimeTableManagementSystemNew
             this.pictureBox1.Location = new System.Drawing.Point(29, 75);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(149, 150);
+            this.pictureBox1.Size = new System.Drawing.Size(150, 150);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 69;
             this.pictureBox1.TabStop = false;

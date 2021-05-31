@@ -204,7 +204,7 @@ namespace TimeTableManagementSystemNew
             SqlCommand cmd = new SqlCommand();
             SqlDataReader sr = null;
             cmd.Connection = con;
-            cmd.CommandText = "Select Top(1) EmployeeName from ManageEmployeeN ";
+            cmd.CommandText = "Select Top(1) EmployeeName from ManageEmployeeN order by EID DESC ";
             con.Open();
             sr = cmd.ExecuteReader();
             if (sr.Read())
@@ -222,7 +222,7 @@ namespace TimeTableManagementSystemNew
             SqlCommand cmd = new SqlCommand();
             SqlDataReader sr = null;
             cmd.Connection = con;
-            cmd.CommandText = "Select Top(1) SubGroupId from tbl_student ";
+            cmd.CommandText = "Select Top(1) SubGroupId from tbl_student order by StudentID DESC ";
             con.Open();
             sr = cmd.ExecuteReader();
             if (sr.Read())
@@ -239,7 +239,7 @@ namespace TimeTableManagementSystemNew
             SqlCommand cmd = new SqlCommand();
             SqlDataReader sr = null;
             cmd.Connection = con;
-            cmd.CommandText = "Select Top(1) Subject_Name from ManageSubject ";
+            cmd.CommandText = "Select Top(1) Subject_Name from ManageSubject order by Subject_ID DESC ";
             con.Open();
             sr = cmd.ExecuteReader();
             if (sr.Read())

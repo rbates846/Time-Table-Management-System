@@ -140,8 +140,8 @@ namespace TimeTableManagementSystemNew
             {
                 SqlCommand cmd = new SqlCommand("INSERT INTO Manage_Consecutive_Location VALUES (@Session_Location1,@Session_Location2) ", con);
                 cmd.CommandType = CommandType.Text;
-                cmd.Parameters.AddWithValue("Session Location 1 ", textBox1.Text);
-                cmd.Parameters.AddWithValue("Session Location 2 ", textBox2.Text);
+                cmd.Parameters.AddWithValue("@Session_Location1 ", textBox1.Text);
+                cmd.Parameters.AddWithValue("@Session_Location2 ", textBox2.Text);
 
 
                 con.Open();
@@ -258,6 +258,20 @@ namespace TimeTableManagementSystemNew
             {
                 MessageBox.Show("Select Session to Delete", "Select", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void dgvConsecutiveLocationlList_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+            ConsecutiveID = Convert.ToInt32(dgvConsecutiveLocationlList.SelectedRows[0].Cells[0].Value);
+            textBox1.Text = dgvConsecutiveLocationlList.SelectedRows[0].Cells[1].Value.ToString();
+            textBox2.Text = dgvConsecutiveLocationlList.SelectedRows[0].Cells[2].Value.ToString();
+
+        }
+
+        private void dgvConsecutiveLocationlList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

@@ -28,7 +28,6 @@ namespace TimeTableManagementSystemNew
             FillCombo4();
             FillCombo5();
             FillCombo6();
-            FillCombo7();
         }
 
         
@@ -185,31 +184,7 @@ namespace TimeTableManagementSystemNew
             }
         }
 
-        private void FillCombo7()
-        {
-
-            string sql = "Select * from AssignActiveHrs";
-            SqlCommand cmd = new SqlCommand(sql, con);
-            SqlDataReader myreader;
-            try
-            {
-                con.Open();
-                myreader = cmd.ExecuteReader();
-                while (myreader.Read())
-                {
-                    string subGrpId = myreader.GetInt32(5) + ":" + myreader.GetInt32(6);
-                    cmbDuration.Items.Add(subGrpId);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                con.Close();
-            }
-        }
+        
 
         private void dataGridFormat_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -267,7 +242,7 @@ namespace TimeTableManagementSystemNew
             string Tag = cmbSelTag.Text;
             string Group = cmbGrp.Text;
             string NumStudents = numStudents.Text;
-            string NumDuration = cmbDuration.Text;
+            string NumDuration = textBox2.Text;
           
             string Format = LectureName + " - "+ SelLectureName + " - " + SubCode+" - "+ Subject + " - " + Tag + " - " + Group + " - " + NumStudents + " - " + NumDuration ;
 
@@ -312,7 +287,7 @@ namespace TimeTableManagementSystemNew
             cmbSelTag.ResetText();
             cmbGrp.ResetText();
             numStudents.Value = 0;
-            cmbDuration.ResetText();
+            textBox2.Clear();
             textBox1.ResetText();
 
             cmbSelEmp.Focus();
@@ -345,7 +320,7 @@ namespace TimeTableManagementSystemNew
                 cmd.Parameters.AddWithValue("@Tag_S", cmbSelTag.Text.ToString());
                 cmd.Parameters.AddWithValue("@Group_S", cmbGrp.Text.ToString());
                 cmd.Parameters.AddWithValue("@Num_Students", numStudents.Text.ToString());
-                cmd.Parameters.AddWithValue("@DurationHrs", cmbDuration.Text.ToString()); 
+                cmd.Parameters.AddWithValue("@DurationHrs", textBox2.Text.ToString()); 
                 cmd.Parameters.AddWithValue("@Format", textBox1.Text.ToString());
 
 
@@ -358,9 +333,7 @@ namespace TimeTableManagementSystemNew
               
                 ReasetAddSessionFormControls();
 
-                this.Hide();
-                ManageSessionN next = new ManageSessionN();
-                next.Show();
+                
             }
         }
 
@@ -382,6 +355,18 @@ namespace TimeTableManagementSystemNew
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ManageSessionN next = new ManageSessionN();
+            next.Show();
+        }
+
+        private void cmbDuration_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

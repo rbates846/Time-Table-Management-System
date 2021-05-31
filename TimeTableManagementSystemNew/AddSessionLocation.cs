@@ -196,5 +196,11 @@ namespace TimeTableManagementSystemNew
                 MessageBox.Show("UnSuccessfull", "Select?", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            SessionRoomID = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells[0].Value);
+            richTextBox1.Text = dataGridView1.SelectedRows[0].Cells[1].Value.ToString();
+        }
     }
 }

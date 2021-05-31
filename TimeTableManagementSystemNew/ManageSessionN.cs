@@ -24,7 +24,6 @@ namespace TimeTableManagementSystemNew
             FillCombo4();
             FillCombo5();
             FillCombo6();
-            FillCombo7();
 
         }
 
@@ -187,31 +186,7 @@ namespace TimeTableManagementSystemNew
         }
 
 
-        private void FillCombo7()
-        {
-
-            string sql = "Select * from AssignActiveHrs";
-            SqlCommand cmd = new SqlCommand(sql, con);
-            SqlDataReader myreader;
-            try
-            {
-                con.Open();
-                myreader = cmd.ExecuteReader();
-                while (myreader.Read())
-                {
-                    string subCode = myreader.GetInt32(5) + ":" + myreader.GetInt32(6);
-                    cmbDuration.Items.Add(subCode);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                con.Close();
-            }
-        }
+        
 
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -280,7 +255,7 @@ namespace TimeTableManagementSystemNew
             cmbSelTag.ResetText();
             cmbGrp.ResetText();
             numStudents.Value = 0;
-            cmbDuration.ResetText();
+            textBox2.ResetText();
             textBox1.Clear();
 
 
@@ -335,7 +310,7 @@ namespace TimeTableManagementSystemNew
                 cmd.Parameters.AddWithValue("@Tag_S", cmbSelTag.Text.ToString());
                 cmd.Parameters.AddWithValue("@Group_S", cmbGrp.Text.ToString());
                 cmd.Parameters.AddWithValue("@Num_Students", numStudents.Value);
-                cmd.Parameters.AddWithValue("@DurationHrs", cmbDuration.Text.ToString()); 
+                cmd.Parameters.AddWithValue("@DurationHrs", textBox2.Text.ToString()); 
                 cmd.Parameters.AddWithValue("@Format", textBox1.Text);
 
                 cmd.Parameters.AddWithValue("@ID", this.ID);
@@ -372,7 +347,7 @@ namespace TimeTableManagementSystemNew
             string Tag = cmbSelTag.Text;
             string Group = cmbGrp.Text;
             string NumStudents = numStudents.Text;
-            string NumDuration = cmbDuration.Text;
+            string NumDuration = textBox2.Text;
 
             string Format = LectureName + " - " + SelLectureName + " - " + SubCode + " - " + Subject + " - " + Tag + " - " + Group + " - " + NumStudents + " - " + NumDuration;
 
@@ -390,7 +365,7 @@ namespace TimeTableManagementSystemNew
             cmbSelTag.Text = GrdsessionData.SelectedRows[0].Cells[5].Value.ToString();
             cmbGrp.Text = GrdsessionData.SelectedRows[0].Cells[6].Value.ToString();
             numStudents.Text = GrdsessionData.SelectedRows[0].Cells[7].Value.ToString();
-            cmbDuration.Text = GrdsessionData.SelectedRows[0].Cells[8].Value.ToString();
+            textBox2.Text = GrdsessionData.SelectedRows[0].Cells[8].Value.ToString();
             textBox1.Text = GrdsessionData.SelectedRows[0].Cells[9].Value.ToString();
 
 
