@@ -13,7 +13,7 @@ namespace TimeTableManagementSystemNew
 {
     public partial class Login : Form
     {
-        private object errorProvider;
+        
 
         public Login()
         {
