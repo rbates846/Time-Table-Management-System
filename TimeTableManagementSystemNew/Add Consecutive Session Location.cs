@@ -184,6 +184,7 @@ namespace TimeTableManagementSystemNew
             }
             catch (Exception ex)
             {
+                MessageBox.Show(ex.Message);
             }
             finally
             {

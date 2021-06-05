@@ -17,7 +17,7 @@ namespace TimeTableManagementSystemNew
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\TimeTable.mdf;Integrated Security=True;");
        
         public int ID;
-        SqlCommand cmd;
+        
 
         public AddSession()
         {
